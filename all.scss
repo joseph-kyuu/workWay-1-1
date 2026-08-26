@@ -1,0 +1,58 @@
+/*
+===================
+!!!!! 設定資料 !!!!!
+===================
+*/
+
+// BS5 Functions
+@import "./modules/bootstrap-5.3.8/scss/functions";
+
+// 我的 variables ( Design System )
+@import "./scss/setting/variables";
+
+// BS5 Variables、variables-dark
+@import "./modules/bootstrap-5.3.8/scss/variables";
+@import "./modules/bootstrap-5.3.8/scss/variables-dark";
+
+// 我的 Maps
+@import "./scss/setting/maps";
+
+// BS5  Maps、Mixins
+@import "./modules/bootstrap-5.3.8/scss/maps";
+@import "./modules/bootstrap-5.3.8/scss/mixins";
+// 我的 Mixins
+@import "./scss/tools/mixins";
+@import "./modules/bootstrap-5.3.8/scss/root";
+
+// BS5 Utilities
+@import "./modules/bootstrap-5.3.8/scss/utilities";
+
+/*
+=====================
+!!!!! 產生 class !!!!!
+=====================
+*/
+
+// BS5 Components Reboot
+@import "./modules/bootstrap-5.3.8/scss/reboot";
+
+// 我的 Reset
+@import "./scss/reset/reset";
+
+// 我的 Utilities
+@import "./scss/utilities/utilities";
+
+// 我的 Custom Utilities
+@import "./scss/utilities/custom_utilities";
+
+// BS5 Components ( 另外統整 )
+@import "./scss/components/boostrap_components";
+// 我的 components
+
+// 我的 pages
+
+// BS5 Utilities API
+@import "./modules/bootstrap-5.3.8/scss/utilities/api";
+
+// 我的 type
+@import "./scss/components/typography";

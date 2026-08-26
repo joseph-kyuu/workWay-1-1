@@ -1,0 +1,161 @@
+// _maps.scss
+$brand-colors: (
+  primary: $brand-color-primary,
+  secondary: $brand-color-secondary,
+  black: $brand-color-black,
+  white: $brand-color-white,
+);
+
+$primary-colors: (
+  97: $primary-97,
+  90: $primary-90,
+  80: $primary-80,
+  70: $primary-70,
+  60: $primary-60,
+  40: $primary-40,
+  25: $primary-25,
+);
+
+$secondary-colors: (
+  90: $secondary-90,
+  70: $secondary-70,
+  50: $secondary-50,
+  35: $secondary-35,
+);
+
+$neutral-colors: (
+  95: $neutral-95,
+  90: $neutral-90,
+  85: $neutral-85,
+  75: $neutral-75,
+  60: $neutral-60,
+  50: $neutral-50,
+  30: $neutral-30,
+  10: $neutral-10,
+);
+
+$line-height: (
+  1: $lh-1,
+  1p5: $lh-1p5,
+  1p2: $lh-1p2,
+);
+
+$display-font-sizes: (
+  1: $display-1,
+  2: $display-2,
+);
+
+$font-sizes: (
+  1: $fs-1,
+  2: $fs-2,
+  3: $fs-3,
+  4: $fs-4,
+  5: $fs-5,
+  6: $fs-6,
+  7: $fs-7,
+  8: $fs-8,
+  9: $fs-9,
+);
+
+$spacers: (
+  0: $spacing-0,
+  1: $spacing-4,
+  2: $spacing-8,
+  3: $spacing-12,
+  4: $spacing-16,
+  5: $spacing-20,
+  6: $spacing-24,
+  7: $spacing-32,
+  8: $spacing-40,
+  9: $spacing-48,
+  10: $spacing-64,
+  11: $spacing-72,
+  12: $spacing-80,
+);
+
+$font-sizes: (
+  1: $fs-1,
+  2: $fs-2,
+  3: $fs-3,
+  4: $fs-4,
+  5: $fs-5,
+  6: $fs-6,
+  7: $fs-7,
+  8: $fs-8,
+);
+
+// $max-width-c: (
+//   1: $max-w-300,
+//   2: $max-w-600,
+//   3: $max-w-40,
+//   4: $max-w-746,
+//   5: $max-w-64,
+//   6: $max-w-49p,
+//   7: $max-w-160,
+//   8: $max-w-306,
+//   9: $max-w-120,
+//   10: $max-w-526,
+//   11: $max-w-856,
+//   12: $max-w-1076,
+// );
+
+$radius: (
+  1: $radius-4,
+  2: $radius-12,
+  3: $radius-16,
+  4: $radius-24,
+);
+
+/*
+=====================
+!!!!! display !!!!!
+=====================
+
+display-
+
+#1:64
+#2:48
+*/
+
+/*
+=====================
+!!!!! font-size !!!!!
+=====================
+
+fs-
+
+#1:40
+#2:32
+#3:28
+#4:24
+#5:20
+#6:16
+#7:14
+#8:12
+*/
+
+/*
+===================
+!!!!! spacing !!!!!
+===================
+#0:0
+#1:4
+#2:8
+#3:12
+#4:16
+#5:24
+#6:32
+#7:40
+#8:48
+#9:561
+#10:64
+#11:80
+#12:288
+#13:200
+#14:100
+#15:84
+#16:118
+#17:6
+#18:62
+#19:120
+*/

@@ -1,0 +1,209 @@
+// 關閉 響應式字體
+$enable-rfs: false;
+
+// 開啟負值 margin
+$enable-negative-margins: true;
+
+/* 
+  ===============
+  !!!!! 顏色 !!!!!
+  ===============
+*/
+
+/* brand */
+$brand-color-primary: #4a69e8;
+$brand-color-secondary: #36c99f;
+$brand-color-black: #141a1f;
+$brand-color-white: #fcfcfd;
+
+/* primary */
+$primary-97: #f1f4fd;
+$primary-90: #d2d9f9;
+$primary-80: #a4b4f3;
+$primary-70: #778eee;
+$primary-60: #4a69e8;
+$primary-40: #1736b5;
+$primary-25: #0e2271;
+
+/* secondary */
+$secondary-90: #d7f4ec;
+$secondary-70: #87dec5;
+$secondary-50: #36c99f;
+$secondary-35: #268c6f;
+
+/* neutral */
+$neutral-95: #f0f3f5;
+$neutral-90: #e0e5eb;
+$neutral-85: #d1d9e1;
+$neutral-75: #b2bfcc;
+$neutral-60: #8599ad;
+$neutral-50: #667f99;
+$neutral-30: #3d4d5c;
+$neutral-10: #141a1f;
+
+/* global */
+
+/* success */
+$global-success-90: #defccf;
+$global-success-40: #47c20a;
+$global-success-30: #369108;
+
+/* danger */
+$global-dnager-90: #ffd0cc;
+$global-dnager-70: #ff7467;
+$global-dnager-45: #e51300;
+
+/* warning */
+$functional-warning-90: #ffeacc;
+$functional-warning-48: #f58f00;
+$functional-warning-35: #b26800;
+
+/* RGBA */
+$alpha-60: rgba(20, 26, 31, 0.6);
+
+/* 
+  ===============
+  !!!!! 行高 !!!!!
+  ===============
+  */
+
+$lh-1p5: 1.5;
+$lh-1p2: 1.2;
+$lh-1: 1;
+
+/* 
+  ===============
+  !!!!! 字距 !!!!!
+  ===============
+  */
+$ls-5: 0.05em;
+
+/* 
+  ==================
+  !!!!! 字體尺寸 !!!!!
+  ==================
+  */
+/*
+====
+基底
+====
+*/
+
+$general-size-base: 1rem;
+
+/* 
+=====
+大尺寸 
+=====
+*/
+
+/* 80px */
+$display-1: $general-size-base * 5;
+/* 48px */
+$display-2: $general-size-base * 3;
+
+/* 
+=======
+一般尺寸 
+=======
+*/
+
+/* 48px */
+$fs-1: $general-size-base * 3;
+/* 32px */
+$fs-2: $general-size-base * 2;
+/* 28px */
+$fs-3: $general-size-base * 1.75;
+/* 24px */
+$fs-4: $general-size-base * 1.5;
+/* 20px */
+$fs-5: $general-size-base * 1.25;
+/* 18px */
+$fs-6: $general-size-base * 1.125;
+/* 16px */
+$fs-7: $general-size-base;
+
+/* 小尺寸 */
+/* 14px */
+$fs-8: $general-size-base * 0.875;
+/* 12px */
+$fs-9: $general-size-base * 0.75;
+
+/* 
+  ===================
+  !!!!! spacing !!!!!
+  ===================
+*/
+
+/* 0px */
+$spacing-0: 0;
+/* 4px */
+$spacing-4: $general-size-base * 0.25;
+/* 8px */
+$spacing-8: $general-size-base * 0.5;
+/* 12px */
+$spacing-12: $general-size-base * 0.75;
+/* 16px */
+$spacing-16: $general-size-base;
+/* 20px */
+$spacing-20: $general-size-base * 1.25;
+/* 24px */
+$spacing-24: $general-size-base * 1.5;
+/* 32px */
+$spacing-32: $general-size-base * 2;
+/* 40px */
+$spacing-40: $general-size-base * 2.5;
+/* 48px */
+$spacing-48: $general-size-base * 3;
+/* 64px */
+$spacing-64: $general-size-base * 4;
+/* 72px */
+$spacing-72: $general-size-base * 4.5;
+/* 80px */
+$spacing-80: $general-size-base * 5;
+
+/* 
+  =============
+  !!!!!圓角!!!!!
+  =============
+*/
+/* 4px */
+$radius-4: $general-size-base * 0.25;
+/* 12px */
+$radius-12: $general-size-base * 0.75;
+/* 16px */
+$radius-16: $general-size-base;
+/* 24px */
+$radius-24: $general-size-base * 1.5;
+
+/* 
+  ======================
+  !!!!! max-height !!!!!
+  ======================
+*/
+
+/* 
+  ======================
+  !!!!! max-width !!!!!
+  ======================
+*/
+// $max-w-300: $general-size-base * 18.75;
+// $max-w-600: $general-size-base * 37.5;
+// $max-w-40: $general-size-base * 2.5;
+// $max-w-746: $general-size-base * 46.625;
+// $max-w-64: $general-size-base * 4;
+// $max-w-49p: 49%;
+// $max-w-160: $general-size-base * 10;
+// $max-w-306: $general-size-base * 19.125;
+// $max-w-120: $general-size-base * 7.5;
+// $max-w-526: $general-size-base * 32.875;
+// $max-w-856: $general-size-base * 53.5;
+// $max-w-1076: $general-size-base * 67.25;
+
+/* 
+  =================
+  !!!!! bread !!!!!
+  =================
+*/
+// $breadcrumb-item-padding-x: $spacing-m;
+// $breadcrumb-divider-color: $neutral-300;

@@ -1,0 +1,149 @@
+/*
+===================
+!!!!! 按鈕結構 !!!!!
+===================
+*/
+
+.btn {
+  /* 顯示層級 */
+  display: inline-block; /* 行內區塊 */
+
+  /* 字體 */
+  font-weight: 400; /* 字重 */
+  line-height: 1.5; /* 行高 */
+  text-align: center; /* 文字對齊 */
+  text-decoration: none; /* 文字裝飾 */
+  vertical-align: middle; /* 垂直對齊 */
+  letter-spacing: var(--ls-5); /* 字距 */
+
+  /* 文字無法反白 */
+  user-select: none;
+
+  /* 外邊框 */
+  border: 1px solid transparent;
+
+  /* 圓角 */
+  border-radius: var(--radius-sm);
+
+  /* 過度動畫 */
+  transition: all 0.15s ease-in-out;
+
+  /* 滑鼠游標樣式 */
+  cursor: pointer; /* 手指 */
+}
+
+/*
+===================
+!!!!! 按鈕尺寸 !!!!!
+===================
+*/
+.btn-large {
+  /* 內間距 */
+  @include btn-size($spacing-12, $spacing-12, $spacing-12, $spacing-20);
+}
+
+.btn-medium {
+  /* 內間距 */
+  @include btn-size($spacing-12, $spacing-12, $spacing-12, $spacing-20);
+}
+
+.btn-small {
+  /* 內間距 */
+  @include btn-size($spacing-4, $spacing-4, $spacing-4, $spacing-8);
+}
+
+// 黑
+.btn-black-filled {
+  @include button-version(
+    $brand-color-black,
+    1px solid transparent,
+    $radius-16,
+    $brand-color-white,
+    $secondary-50,
+    1px solid transparent,
+    $brand-color-black,
+    $secondary-50,
+    1px solid transparent,
+    $brand-color-black
+  );
+}
+
+// 白
+.btn-white-filled {
+  @include button-version(
+    $brand-color-white,
+    1px solid $neutral-85,
+    $radius-16,
+    $brand-color-black,
+    $neutral-90,
+    1px solid transparent,
+    $brand-color-white,
+    $neutral-90,
+    1px solid transparent,
+    $brand-color-white
+  );
+}
+
+// 白2
+.btn-white2-filled {
+  @include button-version(
+    $brand-color-white,
+    1px solid $neutral-85,
+    $radius-16,
+    $neutral-50,
+    $neutral-90,
+    1px solid transparent,
+    $neutral-50,
+    $neutral-90,
+    1px solid transparent,
+    $neutral-50
+  );
+}
+
+// 綠
+.btn-green-filled {
+  @include button-version(
+    $secondary-50,
+    1px solid transparent,
+    $radius-16,
+    $brand-color-black,
+    $primary-60,
+    1px solid transparent,
+    $brand-color-white,
+    $primary-60,
+    1px solid transparent,
+    $brand-color-white
+  );
+}
+
+// 下底線 登入註冊
+// .btn-neutral-outlined-transparent {
+//   @include button-version2(
+//     2px solid $neutral-300,
+//     $neutral-600,
+//     2px solid $neutral-900,
+//     $neutral-900,
+//     2px solid $neutral-900,
+//     $neutral-900
+//   );
+// }
+
+// .active-1 {
+//   @include active($primary-200, transparent);
+// }
+
+// .btn-disabled {
+//   opacity: 0.4;
+//   pointer-events: none;
+// }
+
+// input
+// .form-control::placeholder {
+//   color: $neutral-900;
+//   font-size: $fs-6;
+// }
+
+// .form-control:focus {
+//   outline: none;
+//   box-shadow: none;
+// }

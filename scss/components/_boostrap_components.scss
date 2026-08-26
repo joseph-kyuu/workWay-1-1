@@ -1,0 +1,34 @@
+// _components.scss
+
+// BS5 Layout
+@import "../../modules/bootstrap-5.3.8/scss/type";
+@import "../../modules/bootstrap-5.3.8/scss/images";
+@import "../../modules/bootstrap-5.3.8/scss/containers";
+@import "../../modules/bootstrap-5.3.8/scss/grid";
+@import "../../modules/bootstrap-5.3.8/scss/tables";
+
+// BS5 Components
+@import "../../modules/bootstrap-5.3.8/scss/accordion";
+@import "../../modules/bootstrap-5.3.8/scss/alert";
+@import "../../modules/bootstrap-5.3.8/scss/badge";
+@import "../../modules/bootstrap-5.3.8/scss/breadcrumb";
+@import "../../modules/bootstrap-5.3.8/scss/button-group";
+@import "../../modules/bootstrap-5.3.8/scss/buttons";
+@import "../../modules/bootstrap-5.3.8/scss/card";
+@import "../../modules/bootstrap-5.3.8/scss/carousel";
+@import "../../modules/bootstrap-5.3.8/scss/close";
+@import "../../modules/bootstrap-5.3.8/scss/dropdown";
+@import "../../modules/bootstrap-5.3.8/scss/forms";
+@import "../../modules/bootstrap-5.3.8/scss/list-group";
+@import "../../modules/bootstrap-5.3.8/scss/modal";
+@import "../../modules/bootstrap-5.3.8/scss/nav";
+@import "../../modules/bootstrap-5.3.8/scss/navbar";
+@import "../../modules/bootstrap-5.3.8/scss/offcanvas";
+@import "../../modules/bootstrap-5.3.8/scss/pagination";
+@import "../../modules/bootstrap-5.3.8/scss/popover";
+@import "../../modules/bootstrap-5.3.8/scss/progress";
+@import "../../modules/bootstrap-5.3.8/scss/spinners";
+@import "../../modules/bootstrap-5.3.8/scss/toasts";
+
+// BS5 Helpers
+@import "../../modules/bootstrap-5.3.8/scss/helpers";

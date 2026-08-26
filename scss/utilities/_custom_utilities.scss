@@ -1,0 +1,14 @@
+.mb-0-last {
+  > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+.no-scrollbar {
+  overflow: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

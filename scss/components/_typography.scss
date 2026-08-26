@@ -1,0 +1,10 @@
+// display 文字尺寸 的斷點
+@each $breakpoint, $min-width in $grid-breakpoints {
+  @include media-breakpoint-up($breakpoint) {
+    @each $display, $font-size in $display-font-sizes {
+      .display-#{$breakpoint}-#{$display} {
+        font-size: $font-size !important;
+      }
+    }
+  }
+}

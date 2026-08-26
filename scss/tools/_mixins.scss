@@ -1,0 +1,46 @@
+@mixin btn-size($pt, $pe, $pb, $ps) {
+  padding-top: $pt;
+  padding-right: $pe;
+  padding-bottom: $pb;
+  padding-left: $ps;
+}
+
+@mixin button-version(
+  $background,
+  $border,
+  $radius,
+  $color,
+  $hover-background,
+  $hover-border,
+  $hover-color,
+  $active-background,
+  $active-border,
+  $active-color
+) {
+  background: $background;
+  border: $border;
+  border-radius: $radius;
+  color: $color;
+
+  &:hover {
+    background: $hover-background;
+    border: $hover-border !important;
+    color: $hover-color;
+  }
+
+  &:active {
+    background: $active-background !important;
+    border: $active-border !important;
+    color: $active-color !important;
+  }
+}
+
+// @mixin active($active-bg, $active-border) {
+//   background-color: $active-bg;
+//   border-color: $active-border;
+// }
+
+// @mixin active2($active-color, $active-border) {
+//   color: $active-color;
+//   border-bottom-color: $active-border;
+// }
