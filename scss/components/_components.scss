@@ -37,6 +37,11 @@
 !!!!! 按鈕尺寸 !!!!!
 ===================
 */
+.btn-xl {
+  /* 內間距 */
+  @include btn-size($spacing-8, $spacing-24, $spacing-8, $spacing-24);
+}
+
 .btn-large {
   /* 內間距 */
   @include btn-size($spacing-12, $spacing-12, $spacing-12, $spacing-20);

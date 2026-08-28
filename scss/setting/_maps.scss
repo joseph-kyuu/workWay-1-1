@@ -71,6 +71,8 @@ $spacers: (
   10: $spacing-64,
   11: $spacing-72,
   12: $spacing-80,
+  13: $spacing-312,
+  14: $spacing-100,
 );
 
 $font-sizes: (
@@ -84,20 +86,16 @@ $font-sizes: (
   8: $fs-8,
 );
 
-// $max-width-c: (
-//   1: $max-w-300,
-//   2: $max-w-600,
-//   3: $max-w-40,
-//   4: $max-w-746,
-//   5: $max-w-64,
-//   6: $max-w-49p,
-//   7: $max-w-160,
-//   8: $max-w-306,
-//   9: $max-w-120,
-//   10: $max-w-526,
-//   11: $max-w-856,
-//   12: $max-w-1076,
-// );
+$max-width-c: (
+  1: $max-w-815,
+  2: $max-w-416,
+  3: $max-w-1168,
+  4: $max-w-636,
+);
+
+$min-width-c: (
+  1: $min-w-400,
+);
 
 $radius: (
   1: $radius-4,
