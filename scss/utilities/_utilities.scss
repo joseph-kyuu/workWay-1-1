@@ -3,7 +3,7 @@ $utilities: map-merge(
   (
     "text-brand-color": (
       property: color,
-      class: text-primary,
+      class: text-brand,
       values: $brand-colors,
     ),
     "text-primary-color": (
@@ -32,6 +32,12 @@ $utilities: map-merge(
       class: bg-neutral,
       values: $neutral-colors,
     ),
+    "bg-brand-colors": (
+      responsive: true,
+      property: background-color,
+      class: bg-brand,
+      values: $brand-colors,
+    ),
     "line-height": (
       property: line-height,
       class: lh,
@@ -57,6 +63,16 @@ $utilities: map-merge(
       property: border-radius,
       class: radius,
       values: $radius,
+    ),
+    "max-width-c": (
+      property: max-width,
+      class: max-width,
+      values: $max-width-c,
+    ),
+    "min-width-c": (
+      property: min-width,
+      class: min-width,
+      values: $min-width-c,
     ),
     "margin": (
       responsive: true,

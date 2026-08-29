@@ -4,7 +4,555 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>首頁</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style/all.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="py-3 border-bottom border-neutral-85">
+      <ul
+        class="container list-unstyled d-flex justify-content-between align-items-center"
+      >
+        <!-- 品牌標誌 -->
+        <li>
+          <a href="./index.html">
+            <img src="./img/logo.png" alt="品牌標誌" />
+          </a>
+        </li>
+        <!-- 選單 -->
+        <li>
+          <nav>
+            <ul class="list-unstyled d-flex gap-3">
+              <li>
+                <a class="py-2 px-6 fw-normal" href="＃">服務方案</a>
+              </li>
+              <li>
+                <a class="py-2 px-6" href="＃">關於職旅</a>
+              </li>
+              <li>
+                <a class="py-2 px-6" href="＃">聯絡我們</a>
+              </li>
+            </ul>
+          </nav>
+        </li>
+        <!-- 登入註冊 -->
+        <li>
+          <a class="btn btn-xl btn-white-filled" href="#"> 登入/註冊 </a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <!-- hero -->
+      <section class="py-12 px-6">
+        <!-- 標題、標語、CTA -->
+        <div class="container max-width-1 px-0 mb-8">
+          <!-- 標題 -->
+          <div class="mb-6">
+            <h2 class="text-center">
+              <p class="display-1 fw-bold lh-1p2">一起陪伴、探索</p>
+              <p class="display-1 fw-bold lh-1p2">還有你那些未完成的夢</p>
+            </h2>
+          </div>
+          <!-- 標語、CTA -->
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- 標語 -->
+            <div>
+              <p class="fs-6 text-neutral-50 fw-normal">
+                自由工作很美，也很難。
+              </p>
+              <p class="fs-6 text-neutral-50 fw-normal">
+                我們用 1 對 1 陪伴，陪你從第一步開始，直到夢想變成日常
+              </p>
+            </div>
+            <!-- CTA -->
+            <a
+              class="btn btn-large btn-green-filled d-flex justify-content-center align-items-center"
+              href="#"
+            >
+              <span class="fs-4 fw-bold lh-1p2">開始你的職旅</span>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="28px"
+                  viewBox="0 -960 960 960"
+                  width="28px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+        <!-- 圖片 -->
+        <div class="row row-cols-3">
+          <div class="col">
+            <img src="./img/index/hero-1.png" alt="圖片" />
+          </div>
+          <div class="col">
+            <div class="d-flex flex-column gap-6">
+              <img src="./img/index/hero-2.png" alt="圖片" />
+              <img src="./img/index/hero-3.png" alt="圖片" />
+            </div>
+          </div>
+          <div class="col">
+            <img src="./img/index/hero-4.png" alt="圖片" />
+          </div>
+        </div>
+      </section>
+      <!-- story -->
+      <section class="pt-12">
+        <div class="px-0 ms-13 mb-n12 d-flex gap-6">
+          <!-- 標題 -->
+          <div
+            class="d-flex flex-column justify-content-center align-items-center gap-6 max-width-2 flex-shrink-0"
+          >
+            <div>
+              <!-- 標誌 -->
+              <div>
+                <img src="./img/logo-icon.svg" alt="品牌標誌" />
+              </div>
+              <!-- 標題 -->
+              <div>
+                <h2>
+                  <p>他們已經踏上職旅</p>
+                  <p>聽聽他們的故事</p>
+                </h2>
+              </div>
+              <!-- 說明 -->
+              <p>
+                每一段職涯轉型都有獨特挑戰，這些曾經與你有相同疑惑的夥伴，現在正過著他們嚮往的生活
+              </p>
+            </div>
+          </div>
+          <!-- 卡片 -->
+          <ul class="list-unstyled row max-width-3 flex-nowrap no-scrollbar">
+            <li class="col min-width-1">
+              <div class="position-relative">
+                <img
+                  class="rounded-top-5"
+                  src="./img/index/story-cover-1.png"
+                  alt="人物"
+                />
+                <span
+                  class="badge text-bg-secondary position-absolute top-12 start-12 radius-2 py-2 px-4 fs-7 fw-medium lh-1p2 bg-brand-primary"
+                  >數位遊牧 2 年</span
+                >
+              </div>
+              <div
+                class="px-4 pt-4 pb-6 d-flex flex-column gap-4 rounded-bottom-5 bg-brand-white"
+              >
+                <h3 class="fs-4 fw-bold lh-1p2">轉型成功的設計師</h3>
+                <p class="fs-8 text-neutral-50 fw-normal">
+                  從企業設計師轉職自由接案，比我想的難太多。收入不穩時我幾乎想放棄，是職旅顧問幫我找回方向與差異化。半年後，我不僅維持收入，還能自由挑案，最重要的是，我終於有時間陪爸媽。
+                </p>
+                <p class="d-flex gap-2">
+                  <span class="fw-bold lh-1p2 border-end border-neutral-85 pe-2"
+                    >視覺設計師</span
+                  >
+                  <span class="fs-8 fw-normal">郭敏迪 (34y)</span>
+                </p>
+              </div>
+            </li>
+            <li class="col min-width-1">
+              <div class="position-relative">
+                <img
+                  class="rounded-top-5"
+                  src="./img/index/story-cover-1.png"
+                  alt="人物"
+                />
+                <span
+                  class="badge text-bg-secondary position-absolute top-12 start-12 radius-2 py-2 px-4 fs-7 fw-medium lh-1p2 bg-brand-primary"
+                  >數位遊牧 2 年</span
+                >
+              </div>
+              <div
+                class="px-4 pt-4 pb-6 d-flex flex-column gap-4 rounded-bottom-5 bg-brand-white"
+              >
+                <h3 class="fs-4 fw-bold lh-1p2">轉型成功的設計師</h3>
+                <p class="fs-8 text-neutral-50 fw-normal">
+                  從企業設計師轉職自由接案，比我想的難太多。收入不穩時我幾乎想放棄，是職旅顧問幫我找回方向與差異化。半年後，我不僅維持收入，還能自由挑案，最重要的是，我終於有時間陪爸媽。
+                </p>
+                <p class="d-flex gap-2">
+                  <span class="fw-bold lh-1p2 border-end border-neutral-85 pe-2"
+                    >視覺設計師</span
+                  >
+                  <span class="fs-8 fw-normal">郭敏迪 (34y)</span>
+                </p>
+              </div>
+            </li>
+            <li class="col min-width-1">
+              <div class="position-relative">
+                <img
+                  class="rounded-top-5"
+                  src="./img/index/story-cover-1.png"
+                  alt="人物"
+                />
+                <span
+                  class="badge text-bg-secondary position-absolute top-12 start-12 radius-2 py-2 px-4 fs-7 fw-medium lh-1p2 bg-brand-primary"
+                  >數位遊牧 2 年</span
+                >
+              </div>
+              <div
+                class="px-4 pt-4 pb-6 d-flex flex-column gap-4 rounded-bottom-5 bg-brand-white"
+              >
+                <h3 class="fs-4 fw-bold lh-1p2">轉型成功的設計師</h3>
+                <p class="fs-8 text-neutral-50 fw-normal">
+                  從企業設計師轉職自由接案，比我想的難太多。收入不穩時我幾乎想放棄，是職旅顧問幫我找回方向與差異化。半年後，我不僅維持收入，還能自由挑案，最重要的是，我終於有時間陪爸媽。
+                </p>
+                <p class="d-flex gap-2">
+                  <span class="fw-bold lh-1p2 border-end border-neutral-85 pe-2"
+                    >視覺設計師</span
+                  >
+                  <span class="fs-8 fw-normal">郭敏迪 (34y)</span>
+                </p>
+              </div>
+            </li>
+            <li class="col min-width-1">
+              <div class="position-relative">
+                <img
+                  class="rounded-top-5"
+                  src="./img/index/story-cover-1.png"
+                  alt="人物"
+                />
+                <span
+                  class="badge text-bg-secondary position-absolute top-12 start-12 radius-2 py-2 px-4 fs-7 fw-medium lh-1p2 bg-brand-primary"
+                  >數位遊牧 2 年</span
+                >
+              </div>
+              <div
+                class="px-4 pt-4 pb-6 d-flex flex-column gap-4 rounded-bottom-5 bg-brand-white"
+              >
+                <h3 class="fs-4 fw-bold lh-1p2">轉型成功的設計師</h3>
+                <p class="fs-8 text-neutral-50 fw-normal">
+                  從企業設計師轉職自由接案，比我想的難太多。收入不穩時我幾乎想放棄，是職旅顧問幫我找回方向與差異化。半年後，我不僅維持收入，還能自由挑案，最重要的是，我終於有時間陪爸媽。
+                </p>
+                <p class="d-flex gap-2">
+                  <span class="fw-bold lh-1p2 border-end border-neutral-85 pe-2"
+                    >視覺設計師</span
+                  >
+                  <span class="fs-8 fw-normal">郭敏迪 (34y)</span>
+                </p>
+              </div>
+            </li>
+            <li class="col min-width-1">
+              <div class="position-relative">
+                <img
+                  class="rounded-top-5"
+                  src="./img/index/story-cover-1.png"
+                  alt="人物"
+                />
+                <span
+                  class="badge text-bg-secondary position-absolute top-12 start-12 radius-2 py-2 px-4 fs-7 fw-medium lh-1p2 bg-brand-primary"
+                  >數位遊牧 2 年</span
+                >
+              </div>
+              <div
+                class="px-4 pt-4 pb-6 d-flex flex-column gap-4 rounded-bottom-5 bg-brand-white"
+              >
+                <h3 class="fs-4 fw-bold lh-1p2">轉型成功的設計師</h3>
+                <p class="fs-8 text-neutral-50 fw-normal">
+                  從企業設計師轉職自由接案，比我想的難太多。收入不穩時我幾乎想放棄，是職旅顧問幫我找回方向與差異化。半年後，我不僅維持收入，還能自由挑案，最重要的是，我終於有時間陪爸媽。
+                </p>
+                <p class="d-flex gap-2">
+                  <span class="fw-bold lh-1p2 border-end border-neutral-85 pe-2"
+                    >視覺設計師</span
+                  >
+                  <span class="fs-8 fw-normal">郭敏迪 (34y)</span>
+                </p>
+              </div>
+            </li>
+            <li class="col min-width-1">
+              <div class="position-relative">
+                <img
+                  class="rounded-top-5"
+                  src="./img/index/story-cover-1.png"
+                  alt="人物"
+                />
+                <span
+                  class="badge text-bg-secondary position-absolute top-12 start-12 radius-2 py-2 px-4 fs-7 fw-medium lh-1p2 bg-brand-primary"
+                  >數位遊牧 2 年</span
+                >
+              </div>
+              <div
+                class="px-4 pt-4 pb-6 d-flex flex-column gap-4 rounded-bottom-5 bg-brand-white"
+              >
+                <h3 class="fs-4 fw-bold lh-1p2">轉型成功的設計師</h3>
+                <p class="fs-8 text-neutral-50 fw-normal">
+                  從企業設計師轉職自由接案，比我想的難太多。收入不穩時我幾乎想放棄，是職旅顧問幫我找回方向與差異化。半年後，我不僅維持收入，還能自由挑案，最重要的是，我終於有時間陪爸媽。
+                </p>
+                <p class="d-flex gap-2">
+                  <span class="fw-bold lh-1p2 border-end border-neutral-85 pe-2"
+                    >視覺設計師</span
+                  >
+                  <span class="fs-8 fw-normal">郭敏迪 (34y)</span>
+                </p>
+              </div>
+            </li>
+            <li class="col min-width-1">
+              <div class="position-relative">
+                <img
+                  class="rounded-top-5"
+                  src="./img/index/story-cover-1.png"
+                  alt="人物"
+                />
+                <span
+                  class="badge text-bg-secondary position-absolute top-12 start-12 radius-2 py-2 px-4 fs-7 fw-medium lh-1p2 bg-brand-primary"
+                  >數位遊牧 2 年</span
+                >
+              </div>
+              <div
+                class="px-4 pt-4 pb-6 d-flex flex-column gap-4 rounded-bottom-5 bg-brand-white"
+              >
+                <h3 class="fs-4 fw-bold lh-1p2">轉型成功的設計師</h3>
+                <p class="fs-8 text-neutral-50 fw-normal">
+                  從企業設計師轉職自由接案，比我想的難太多。收入不穩時我幾乎想放棄，是職旅顧問幫我找回方向與差異化。半年後，我不僅維持收入，還能自由挑案，最重要的是，我終於有時間陪爸媽。
+                </p>
+                <p class="d-flex gap-2">
+                  <span class="fw-bold lh-1p2 border-end border-neutral-85 pe-2"
+                    >視覺設計師</span
+                  >
+                  <span class="fs-8 fw-normal">郭敏迪 (34y)</span>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <section class="bg-neutral-95 py-14"></section>
+      </section>
+      <!-- 選擇我們 -->
+      <section class="py-12 bg-neutral-95">
+        <div class="container">
+          <!-- 泡泡、標題  -->
+          <div class="mb-9 d-flex flex-column align-items-center gap-5">
+            <!-- 泡泡 -->
+            <div
+              class="position-relative py-3 px-5 fs-5 text-primary fw-bold lh-1p2 bg-brand-white border border-primary border-2 radius-2"
+            >
+              為什麼？
+              <span
+                class="position-absolute top-100 start-50 translate-middle-x bubble-arrow"
+              ></span>
+            </div>
+            <!-- 標題  -->
+            <h2 class="fs-1 text-brand-black fw-bold lh-1p2">
+              選擇職旅 WorkWay
+            </h2>
+          </div>
+          <!-- 卡片 -->
+          <div class="position-relative mb-9">
+            <ul class="list-unstyled row row-cols-3">
+              <li class="col">
+                <a class="position-relative radius-4" href="#">
+                  <!-- 圖片 -->
+                  <img
+                    class="radius-4"
+                    src="./img/index/adv-1.png"
+                    alt="情境圖"
+                  />
+                  <!-- 標籤 -->
+                  <span
+                    class="position-absolute bottom-0 start-0 py-3 ps-3 pe-6 bg-neutral-95 d-flex justify-content-center align-items-center gap-2 radius-top-end radius-bottom-start"
+                  >
+                    <!-- 符號 -->
+                    <span>
+                      <svg
+                        class="text-primary-60"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24px"
+                        viewBox="0 -960 960 960"
+                        width="24px"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M468-240q-96-5-162-74t-66-166q0-100 70-170t170-70q97 0 166 66t74 162l-84-25q-13-54-56-88.5T480-640q-66 0-113 47t-47 113q0 57 34.5 100t88.5 56l25 84Zm48 158q-9 2-18 2h-18q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480v18q0 9-2 18l-78-24v-12q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93h12l24 78Zm305 22L650-231 600-80 480-480l400 120-151 50 171 171-79 79Z"
+                        />
+                      </svg>
+                    </span>
+                    <!-- 文字 -->
+                    <span class="fs-4 text-neutral-50 fw-bold lh-1p2"
+                      >實戰經驗</span
+                    >
+                  </span>
+                </a>
+              </li>
+              <li class="col">
+                <a class="position-relative radius-4" href="#">
+                  <!-- 圖片 -->
+                  <img
+                    class="radius-4"
+                    src="./img/index/adv-1.png"
+                    alt="情境圖"
+                  />
+                  <!-- 標籤 -->
+                  <span
+                    class="position-absolute bottom-0 start-0 py-3 ps-3 pe-6 bg-neutral-95 d-flex justify-content-center align-items-center gap-2 radius-top-end radius-bottom-start"
+                  >
+                    <!-- 符號 -->
+                    <span>
+                      <svg
+                        class="text-primary-60"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24px"
+                        viewBox="0 -960 960 960"
+                        width="24px"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M468-240q-96-5-162-74t-66-166q0-100 70-170t170-70q97 0 166 66t74 162l-84-25q-13-54-56-88.5T480-640q-66 0-113 47t-47 113q0 57 34.5 100t88.5 56l25 84Zm48 158q-9 2-18 2h-18q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480v18q0 9-2 18l-78-24v-12q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93h12l24 78Zm305 22L650-231 600-80 480-480l400 120-151 50 171 171-79 79Z"
+                        />
+                      </svg>
+                    </span>
+                    <!-- 文字 -->
+                    <span class="fs-4 text-neutral-50 fw-bold lh-1p2"
+                      >實戰經驗</span
+                    >
+                  </span>
+                </a>
+              </li>
+              <li class="col">
+                <a class="position-relative radius-4" href="#">
+                  <!-- 圖片 -->
+                  <img
+                    class="radius-4"
+                    src="./img/index/adv-1.png"
+                    alt="情境圖"
+                  />
+                  <!-- 標籤 -->
+                  <span
+                    class="position-absolute bottom-0 start-0 py-3 ps-3 pe-6 bg-neutral-95 d-flex justify-content-center align-items-center gap-2 radius-top-end radius-bottom-start"
+                  >
+                    <!-- 符號 -->
+                    <span>
+                      <svg
+                        class="text-primary-60"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24px"
+                        viewBox="0 -960 960 960"
+                        width="24px"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M468-240q-96-5-162-74t-66-166q0-100 70-170t170-70q97 0 166 66t74 162l-84-25q-13-54-56-88.5T480-640q-66 0-113 47t-47 113q0 57 34.5 100t88.5 56l25 84Zm48 158q-9 2-18 2h-18q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480v18q0 9-2 18l-78-24v-12q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93h12l24 78Zm305 22L650-231 600-80 480-480l400 120-151 50 171 171-79 79Z"
+                        />
+                      </svg>
+                    </span>
+                    <!-- 文字 -->
+                    <span class="fs-4 text-neutral-50 fw-bold lh-1p2"
+                      >實戰經驗</span
+                    >
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <!-- 插圖 -->
+            <div class="col position-absolute bottom-100 end-0 mb-n3">
+              <img
+                class="text-end"
+                src="./img/index/adv-vectors.svg"
+                alt="插圖"
+              />
+            </div>
+          </div>
+          <!-- 標語 -->
+          <div class="d-flex align-items-center gap-6">
+            <p class="text-neutral-50 fw-medium lh-1p2">
+              不是套模板的建議，而是為你量身打造的陪伴！
+            </p>
+            <div class="border-bottom flex-grow-1 border-neutral-85"></div>
+          </div>
+        </div>
+      </section>
+      <!-- 了解更多 -->
+      <section class="py-12">
+        <div class="container d-flex gap-6">
+          <!-- 圖片 -->
+          <img
+            class="max-width-4 radius-2"
+            src="./img/index/team.png"
+            alt="團隊照"
+          />
+          <!-- 說明、CTA -->
+          <div class="px-3 d-flex flex-column align-items-start gap-6">
+            <!-- 主題 -->
+            <h2 class="fs-1 text-neutral-10 fw-bold lh-1p2">
+              遇見你的職涯夥伴
+            </h2>
+            <!-- 說明 -->
+            <div class="d-flex flex-column align-items-start gap-6">
+              <p class="fs-6 text-neutral-50 fw-normal">
+                每位顧問都有獨特專長，更重要的是：
+              </p>
+              <div class="bg-neutral-95 py-2 px-5">
+                <p class="fs-4 text-brand-primary fw-bold lh-1p2">
+                  “ 他們都曾面對你正在經歷的挑戰 ”
+                </p>
+              </div>
+              <p class="fs-6 text-neutral-50 fw-normal">
+                職旅 WorkWay
+                匯集了來自不同領域、擁有豐富實戰經驗的自由工作者與數位遊牧專家。我們的顧問不只教授理論，更分享親身經歷的挑戰與解決之道。
+              </p>
+              <p class="fs-6 text-neutral-50 fw-normal">
+                我們相信，最好的指導來自於那些已經走過你想走的路，並願意伸出手拉你一把的人。
+              </p>
+            </div>
+            <!-- CTA -->
+            <a
+              class="btn btn-large btn-black-filled d-flex justify-content-center align-items-center flex-grow-0"
+              href="#"
+            >
+              <span class="fs-7 fw-normal">了解更多職旅夥伴</span>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="28px"
+                  viewBox="0 -960 960 960"
+                  width="28px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-9 bg-neutral-95 border-top border-neutral-85">
+      <ul
+        class="list-unstyled d-flex justify-content-between align-items-center container"
+      >
+        <li>
+          <ul class="list-unstyled d-flex justify-content-between">
+            <li>
+              <a class="py-2 px-6 fw-normal fw-normal" href="#">服務方案</a>
+            </li>
+            <li>
+              <a class="py-2 px-6 fw-normal" href="#">關於職旅</a>
+            </li>
+            <li>
+              <a class="py-2 px-6 fw-normal" href="#">聯絡我們</a>
+            </li>
+            <li>
+              <a class="py-2 px-6 fw-normal" href="#">隱私權政策</a>
+            </li>
+            <li>
+              <a class="py-2 px-6 fw-normal" href="#">用戶條款</a>
+            </li>
+          </ul>
+        </li>
+        <li class="fs-8 text-neutral-50">
+          Copyright © 2025 職旅 workway. All rights reserved.
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>

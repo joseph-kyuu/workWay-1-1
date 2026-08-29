@@ -1,0 +1,39 @@
+.bubble-arrow {
+  width: 0;
+  height: 0;
+
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-top: 14px solid #0d6efd;
+}
+
+.bubble-arrow::after {
+  content: "";
+  position: absolute;
+
+  left: -12px;
+  top: -14px;
+
+  width: 0;
+  height: 0;
+
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #fcfcfd;
+}
+
+.top-12 {
+  top: 0.75rem;
+}
+
+.start-12 {
+  left: 0.75rem;
+}
+
+.radius-top-end {
+  border-top-right-radius: 1rem;
+}
+
+.radius-bottom-start {
+  border-bottom-left-radius: 1rem;
+}

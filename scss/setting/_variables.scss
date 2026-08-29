@@ -161,6 +161,10 @@ $spacing-64: $general-size-base * 4;
 $spacing-72: $general-size-base * 4.5;
 /* 80px */
 $spacing-80: $general-size-base * 5;
+/* 312px */
+$spacing-312: $general-size-base * 19.5;
+/* 100px */
+$spacing-100: $general-size-base * 6.25;
 
 /* 
   =============
@@ -187,8 +191,10 @@ $radius-24: $general-size-base * 1.5;
   !!!!! max-width !!!!!
   ======================
 */
-// $max-w-300: $general-size-base * 18.75;
-// $max-w-600: $general-size-base * 37.5;
+$max-w-815: $general-size-base * 51;
+$max-w-416: $general-size-base * 26;
+$max-w-1168: $general-size-base * 73;
+$max-w-636: $general-size-base * 39.75;
 // $max-w-40: $general-size-base * 2.5;
 // $max-w-746: $general-size-base * 46.625;
 // $max-w-64: $general-size-base * 4;
@@ -199,6 +205,13 @@ $radius-24: $general-size-base * 1.5;
 // $max-w-526: $general-size-base * 32.875;
 // $max-w-856: $general-size-base * 53.5;
 // $max-w-1076: $general-size-base * 67.25;
+
+/* 
+  ======================
+  !!!!! min-width !!!!!
+  ======================
+*/
+$min-w-400: $general-size-base * 25;
 
 /* 
   =================
