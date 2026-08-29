@@ -37,3 +37,26 @@
 .radius-bottom-start {
   border-bottom-left-radius: 1rem;
 }
+
+.radius-top-start {
+  border-top-left-radius: 1rem;
+}
+
+.radius-bottom-end {
+  border-bottom-right-radius: 1rem;
+}
+
+.bg-1 {
+  background: url(../../img/index/bg-grid.png);
+  background-size: 200px;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.qa-arrow {
+  transition: transform 0.3s;
+}
+
+.qa-btn[aria-expanded="true"] .qa-arrow {
+  transform: rotate(90deg);
+}
