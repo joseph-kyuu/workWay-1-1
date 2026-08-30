@@ -70,6 +70,7 @@ $utilities: map-merge(
       values: $max-width-c,
     ),
     "min-width-c": (
+      responsive: true,
       property: min-width,
       class: min-width,
       values: $min-width-c,
