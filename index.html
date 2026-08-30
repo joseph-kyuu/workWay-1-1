@@ -24,7 +24,7 @@
           </a>
         </li>
         <!-- 選單 -->
-        <li>
+        <li class="d-none d-md-flex">
           <nav>
             <ul class="list-unstyled d-flex gap-3">
               <li>
@@ -41,30 +41,54 @@
         </li>
         <!-- 登入註冊 -->
         <li>
-          <a class="btn btn-xl btn-white-filled" href="#"> 登入/註冊 </a>
+          <a
+            class="btn btn-xl px-md-6 px-4 btn-white-filled me-3 me-md-0"
+            href="#"
+            >登入/註冊</a
+          >
+
+          <button class="btn py-3 px-0 border-0 d-md-none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="currentColor"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </button>
         </li>
       </ul>
     </header>
     <main>
       <!-- hero -->
-      <section class="py-12 px-6">
+      <section class="py-md-12 py-9 px-md-6 px-3">
         <!-- 標題、標語、CTA -->
         <div class="container max-width-1 px-0 mb-8">
           <!-- 標題 -->
           <div class="mb-6">
             <h2 class="text-center">
-              <p class="display-1 fw-bold lh-1p2">一起陪伴、探索</p>
-              <p class="display-1 fw-bold lh-1p2">還有你那些未完成的夢</p>
+              <p class="display-md-1 fs-2 fw-bold lh-1p2">一起陪伴、探索</p>
+              <p class="display-md-1 fs-2 fw-bold lh-1p2">
+                還有你那些未完成的夢
+              </p>
             </h2>
           </div>
           <!-- 標語、CTA -->
-          <div class="d-flex justify-content-between align-items-center">
+          <div
+            class="d-flex justify-content-between align-items-center flex-column flex-md-row"
+          >
             <!-- 標語 -->
-            <div>
-              <p class="fs-6 text-neutral-50 fw-normal">
+            <div class="mb-md-0 mb-4">
+              <p
+                class="fs-md-6 text-neutral-50 fw-normal text-md-start text-center"
+              >
                 自由工作很美，也很難。
               </p>
-              <p class="fs-6 text-neutral-50 fw-normal">
+              <p class="fs-md-6 text-neutral-50 fw-normal">
                 我們用 1 對 1 陪伴，陪你從第一步開始，直到夢想變成日常
               </p>
             </div>
@@ -91,11 +115,11 @@
           </div>
         </div>
         <!-- 圖片 -->
-        <div class="row row-cols-3">
-          <div class="col">
+        <div class="row row-cols-md-3">
+          <div class="col d-md-flex d-none">
             <img src="./img/index/hero-1.png" alt="圖片" />
           </div>
-          <div class="col">
+          <div class="col d-md-flex d-none">
             <div class="d-flex flex-column gap-6">
               <img src="./img/index/hero-2.png" alt="圖片" />
               <img src="./img/index/hero-3.png" alt="圖片" />
@@ -107,34 +131,37 @@
         </div>
       </section>
       <!-- story -->
-      <section class="pt-12">
-        <div class="px-0 ms-13 mb-n12 d-flex gap-6">
-          <!-- 標題 -->
+      <section class="pt-md-12 pt-9 px-3 px-0">
+        <!-- 標誌、標題、說明、卡片 -->
+        <div
+          class="px-0 ms-xl-13 mb-md-n14 mb-n15 d-flex flex-md-row flex-column gap-6"
+        >
+          <!-- 標誌、標題、說明 -->
           <div
-            class="d-flex flex-column justify-content-center align-items-center gap-6 max-width-2 flex-shrink-0"
+            class="d-flex flex-column justify-content-center gap-6 max-width-2 flex-shrink-0"
           >
+            <!-- 標誌 -->
             <div>
-              <!-- 標誌 -->
-              <div>
-                <img src="./img/logo-icon.svg" alt="品牌標誌" />
-              </div>
-              <!-- 標題 -->
-              <div>
-                <h2>
-                  <p>他們已經踏上職旅</p>
-                  <p>聽聽他們的故事</p>
-                </h2>
-              </div>
-              <!-- 說明 -->
-              <p>
-                每一段職涯轉型都有獨特挑戰，這些曾經與你有相同疑惑的夥伴，現在正過著他們嚮往的生活
-              </p>
+              <img src="./img/logo-icon.svg" alt="品牌標誌" />
             </div>
+            <!-- 標題 -->
+            <div>
+              <h2>
+                <p>他們已經踏上職旅</p>
+                <p>聽聽他們的故事</p>
+              </h2>
+            </div>
+            <!-- 說明 -->
+            <p class="fs-6 text-neutral-50 fw-normal">
+              每一段職涯轉型都有獨特挑戰，這些曾經與你有相同疑惑的夥伴，現在正過著他們嚮往的生活
+            </p>
           </div>
           <!-- 卡片 -->
-          <ul class="list-unstyled row max-width-3 flex-nowrap no-scrollbar">
-            <li class="col">
-              <div class="min-width-1">
+          <ul
+            class="list-unstyled d-flex gap-md-6 gap-4 max-width-3 flex-nowrap no-scrollbar"
+          >
+            <li>
+              <div class="min-width-sm-1 min-width-2">
                 <div class="position-relative">
                   <img
                     class="rounded-top-5"
@@ -163,8 +190,8 @@
                 </div>
               </div>
             </li>
-            <li class="col">
-              <div class="min-width-1">
+            <li>
+              <div class="min-width-sm-1 min-width-2">
                 <div class="position-relative">
                   <img
                     class="rounded-top-5"
@@ -193,8 +220,8 @@
                 </div>
               </div>
             </li>
-            <li class="col">
-              <div class="min-width-1">
+            <li>
+              <div class="min-width-sm-1 min-width-2">
                 <div class="position-relative">
                   <img
                     class="rounded-top-5"
@@ -223,8 +250,8 @@
                 </div>
               </div>
             </li>
-            <li class="col">
-              <div class="min-width-1">
+            <li>
+              <div class="min-width-sm-1 min-width-2">
                 <div class="position-relative">
                   <img
                     class="rounded-top-5"
@@ -253,8 +280,38 @@
                 </div>
               </div>
             </li>
-            <li class="col">
-              <div class="min-width-1">
+            <li>
+              <div class="min-width-sm-1 min-width-2">
+                <div class="position-relative">
+                  <img
+                    class="rounded-top-5"
+                    src="./img/index/story-cover-1.png"
+                    alt="人物"
+                  />
+                  <span
+                    class="badge text-bg-secondary position-absolute top-12 start-12 radius-2 py-2 px-4 fs-7 fw-medium lh-1p2 bg-brand-primary"
+                    >數位遊牧 2 年</span
+                  >
+                </div>
+                <div
+                  class="px-4 pt-4 pb-6 d-flex flex-column gap-4 rounded-bottom-5 bg-brand-white"
+                >
+                  <h3 class="fs-4 fw-bold lh-1p2">轉型成功的設計師</h3>
+                  <p class="fs-8 text-neutral-50 fw-normal">
+                    從企業設計師轉職自由接案，比我想的難太多。收入不穩時我幾乎想放棄，是職旅顧問幫我找回方向與差異化。半年後，我不僅維持收入，還能自由挑案，最重要的是，我終於有時間陪爸媽。
+                  </p>
+                  <p class="d-flex gap-2">
+                    <span
+                      class="fw-bold lh-1p2 border-end border-neutral-85 pe-2"
+                      >視覺設計師</span
+                    >
+                    <span class="fs-8 fw-normal">郭敏迪 (34y)</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="min-width-sm-1 min-width-2">
                 <div class="position-relative">
                   <img
                     class="rounded-top-5"
@@ -285,13 +342,14 @@
             </li>
           </ul>
         </div>
-        <section class="bg-neutral-95 py-14"></section>
       </section>
+      <!-- 裝飾背景 -->
+      <section class="bg-neutral-95 py-14"></section>
       <!-- 選擇我們 -->
-      <section class="py-12 bg-neutral-95">
+      <section class="py-md-12 py-9 bg-neutral-95">
         <div class="container">
           <!-- 泡泡、標題  -->
-          <div class="mb-9 d-flex flex-column align-items-center gap-5">
+          <div class="mb-md-9 mb-6 d-flex flex-column align-items-center gap-5">
             <!-- 泡泡 -->
             <div
               class="position-relative py-3 px-5 fs-5 text-primary fw-bold lh-1p2 bg-brand-white border border-primary border-2 radius-2"
@@ -302,14 +360,16 @@
               ></span>
             </div>
             <!-- 標題  -->
-            <h2 class="fs-1 text-brand-black fw-bold lh-1p2">
+            <h2 class="fs-1 text-brand-black fw-bold lh-1p2 text-center">
               選擇職旅 WorkWay
             </h2>
           </div>
           <!-- 卡片 -->
-          <div class="position-relative mb-9">
-            <ul class="list-unstyled row row-cols-3">
-              <li class="col">
+          <div class="position-relative mb-md-9 mb-6">
+            <ul
+              class="list-unstyled d-flex flex-md-row flex-column gap-md-6 gap-4"
+            >
+              <li>
                 <a class="position-relative radius-4" href="#">
                   <!-- 圖片 -->
                   <img
@@ -343,7 +403,7 @@
                   </span>
                 </a>
               </li>
-              <li class="col">
+              <li>
                 <a class="position-relative radius-4" href="#">
                   <!-- 圖片 -->
                   <img
@@ -377,7 +437,7 @@
                   </span>
                 </a>
               </li>
-              <li class="col">
+              <li>
                 <a class="position-relative radius-4" href="#">
                   <!-- 圖片 -->
                   <img
@@ -413,7 +473,9 @@
               </li>
             </ul>
             <!-- 插圖 -->
-            <div class="col position-absolute bottom-100 end-0 mb-n3">
+            <div
+              class="col position-absolute bottom-100 end-0 mb-n3 d-none d-lg-block"
+            >
               <img
                 class="text-end"
                 src="./img/index/adv-vectors.svg"
@@ -431,8 +493,8 @@
         </div>
       </section>
       <!-- 了解更多 -->
-      <section class="py-12">
-        <div class="container d-flex gap-6">
+      <section class="py-sm-12 py-9">
+        <div class="container d-flex flex-lg-row flex-column gap-6">
           <!-- 圖片 -->
           <img
             class="max-width-4 radius-2"
@@ -440,13 +502,15 @@
             alt="團隊照"
           />
           <!-- 說明、CTA -->
-          <div class="px-3 d-flex flex-column align-items-start gap-6">
+          <div class="px-xl-3 d-flex flex-column gap-xl-6 gap-4">
             <!-- 主題 -->
-            <h2 class="fs-1 text-neutral-10 fw-bold lh-1p2">
+            <h2
+              class="fs-xl-1 fs-2 text-neutral-10 fw-bold lh-1p2 text-sm-start text-center"
+            >
               遇見你的職涯夥伴
             </h2>
             <!-- 說明 -->
-            <div class="d-flex flex-column align-items-start gap-6">
+            <div class="d-flex flex-column align-items-start gap-xl-6 gap-4">
               <p class="fs-6 text-neutral-50 fw-normal">
                 每位顧問都有獨特專長，更重要的是：
               </p>
@@ -465,7 +529,7 @@
             </div>
             <!-- CTA -->
             <a
-              class="btn btn-large btn-black-filled d-flex justify-content-center align-items-center flex-grow-0"
+              class="btn btn-large btn-black-filled d-flex justify-content-center align-items-center align-self-sm-start align-self-center"
               href="#"
             >
               <span class="fs-7 fw-normal">了解更多職旅夥伴</span>
@@ -499,10 +563,11 @@
             </p>
           </div>
           <!-- 卡片 -->
-          <ul class="list-unstyled row row-cols-4">
-            <li class="col">
+          <ul class="list-unstyled d-flex gap-lg-6 gap-4 no-scrollbar">
+            <li>
               <div
-                class="px-6 pt-10 pb-9 d-flex flex-column justify-content-center align-items-center gap-6 text-center bg-brand-white radius-4 position-relative"
+                class="px-lg-6 px-4 pt-10 pb-9 d-flex flex-column justify-content-center align-items-center gap-lg-6 gap-4 text-center bg-brand-white radius-4 position-relative"
+                style="min-width: 306px"
               >
                 <img src="./img/index/serve-1.svg" alt="插圖" />
                 <h3 class="fs-4 text-brand-black fw-bold lh-1p2">
@@ -518,9 +583,10 @@
                 </span>
               </div>
             </li>
-            <li class="col">
+            <li>
               <div
-                class="px-6 pt-10 pb-9 d-flex flex-column justify-content-center align-items-center gap-6 text-center bg-brand-white radius-4 position-relative"
+                class="px-lg-6 px-4 pt-10 pb-9 d-flex flex-column justify-content-center align-items-center gap-lg-6 gap-4 text-center bg-brand-white radius-4 position-relative"
+                style="min-width: 306px"
               >
                 <img src="./img/index/serve-1.svg" alt="插圖" />
                 <h3 class="fs-4 text-brand-black fw-bold lh-1p2">
@@ -536,9 +602,10 @@
                 </span>
               </div>
             </li>
-            <li class="col">
+            <li>
               <div
-                class="px-6 pt-10 pb-9 d-flex flex-column justify-content-center align-items-center gap-6 text-center bg-brand-white radius-4 position-relative"
+                class="px-lg-6 px-4 pt-10 pb-9 d-flex flex-column justify-content-center align-items-center gap-lg-6 gap-4 text-center bg-brand-white radius-4 position-relative"
+                style="min-width: 306px"
               >
                 <img src="./img/index/serve-1.svg" alt="插圖" />
                 <h3 class="fs-4 text-brand-black fw-bold lh-1p2">
@@ -554,9 +621,10 @@
                 </span>
               </div>
             </li>
-            <li class="col">
+            <li>
               <div
-                class="px-6 pt-10 pb-9 d-flex flex-column justify-content-center align-items-center gap-6 text-center bg-brand-white radius-4 position-relative"
+                class="px-lg-6 px-4 pt-10 pb-9 d-flex flex-column justify-content-center align-items-center gap-lg-6 gap-4 text-center bg-brand-white radius-4 position-relative"
+                style="min-width: 306px"
               >
                 <img src="./img/index/serve-1.svg" alt="插圖" />
                 <h3 class="fs-4 text-brand-black fw-bold lh-1p2">
@@ -576,10 +644,10 @@
         </div>
       </section>
       <!-- QA -->
-      <section class="py-12 bg-1">
+      <section class="py-md-12 py-9 bg-1">
         <div class="container">
           <!-- 泡泡、標題  -->
-          <div class="mb-9 d-flex flex-column align-items-center gap-5">
+          <div class="mb-md-9 mb-6 d-flex flex-column align-items-center gap-5">
             <!-- 泡泡 -->
             <div
               class="position-relative py-3 px-5 fs-5 text-primary fw-bold lh-1p2 bg-brand-white border border-primary border-2 radius-2"
@@ -595,8 +663,8 @@
             </h2>
           </div>
           <!-- 清單 -->
-          <div class="d-flex gap-6">
-            <img src="./img/index/qa.svg" alt="插圖" />
+          <div class="d-flex flex-lg-row flex-column gap-lg-6 gap-4">
+            <img class="d-md-flex d-none" src="./img/index/qa.svg" alt="插圖" />
             <ul class="list-unstyled d-flex flex-column gap-5 flex-grow-1">
               <li class="p-6 bg-brand-white border border-neutral-85 radius-2">
                 <button
@@ -673,8 +741,10 @@
         </div>
       </section>
       <!-- 預約 -->
-      <section class="py-8">
-        <div class="container py-6 px-9 bg-brand-primary radius-4">
+      <section class="py-8 px-4 px-sm-0">
+        <div
+          class="container py-md-6 py-4 px-sm-9 px-6 bg-brand-primary radius-4"
+        >
           <!-- 標誌、標題、標語 -->
           <div class="pb-6 mb-6 border-bottom">
             <!-- 標誌 -->
@@ -708,9 +778,12 @@
             </p>
           </div>
           <!-- 電話、email、CTA -->
-          <div class="mb-5 d-flex justify-content-between align-items-center">
+          <div
+            class="d-flex justify-content-between flex-md-row flex-column gap-6 gap-md-0"
+          >
             <!-- 電話、email -->
-            <span>
+            <span class="d-flex flex-column flex-lg-row gap-lg-0 gap-4">
+              <!-- 電話 -->
               <span class="me-6 fs-5 text-brand-white fw-medium lh-1p2">
                 <span class="me-2">
                   <svg
@@ -727,6 +800,7 @@
                 </span>
                 <span>0800-123-123</span>
               </span>
+              <!-- email -->
               <span class="me-6 fs-5 text-brand-white fw-medium lh-1p2">
                 <span class="me-2">
                   <svg
@@ -746,7 +820,7 @@
             </span>
             <!-- CTA -->
             <a
-              class="btn btn-large btn-black-filled d-flex justify-content-center align-items-center flex-grow-0"
+              class="btn btn-large btn-black-filled d-flex justify-content-center align-items-center flex-grow-0 align-self-start"
               href="#"
             >
               <span class="fs-7 fw-normal">預約免費職涯探索</span>
@@ -768,29 +842,36 @@
         </div>
       </section>
     </main>
-    <footer class="py-9 bg-neutral-95 border-top border-neutral-85">
+    <footer class="py-sm-9 py-6 bg-neutral-95 border-top border-neutral-85">
+      <!-- 選單、版權 -->
       <ul
-        class="list-unstyled d-flex justify-content-between align-items-center container"
+        class="list-unstyled container d-flex justify-content-between align-items-center flex-xl-row flex-column gap-2 gap-sm-0"
       >
+        <!-- 選單 -->
         <li>
-          <ul class="list-unstyled d-flex justify-content-between">
-            <li>
-              <a class="py-2 px-6 fw-normal fw-normal" href="#">服務方案</a>
+          <ul
+            class="list-unstyled d-flex justify-content-sm-between justify-content-center flex-wrap gap-2 gap-sm-0"
+          >
+            <li class="flex-shrink-0">
+              <a class="py-2 px-sm-6 px-4 fw-normal fw-normal" href="#"
+                >服務方案</a
+              >
             </li>
-            <li>
+            <li class="flex-shrink-0">
               <a class="py-2 px-6 fw-normal" href="#">關於職旅</a>
             </li>
-            <li>
+            <li class="flex-shrink-0">
               <a class="py-2 px-6 fw-normal" href="#">聯絡我們</a>
             </li>
-            <li>
+            <li class="flex-shrink-0">
               <a class="py-2 px-6 fw-normal" href="#">隱私權政策</a>
             </li>
-            <li>
+            <li class="flex-shrink-0">
               <a class="py-2 px-6 fw-normal" href="#">用戶條款</a>
             </li>
           </ul>
         </li>
+        <!-- 版權 -->
         <li class="fs-8 text-neutral-50">
           Copyright © 2025 職旅 workway. All rights reserved.
         </li>
