@@ -49,6 +49,11 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes,
     ),
+    "border-brand": (
+      property: border-color,
+      class: border-brand,
+      values: $brand-colors,
+    ),
     "border-color-neutral": (
       property: border-color,
       class: border-neutral,
