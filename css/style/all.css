@@ -8785,6 +8785,22 @@ textarea.form-control-lg {
           transform: rotate(90deg);
 }
 
+.bg-2 {
+  background: url(../../img/service/banner-bg.png);
+  background-size: 200px;
+  background-position: left top;
+  background-repeat: repeat;
+  z-index: -2;
+}
+
+.end-440 {
+  right: 100px;
+}
+
+.z-n1 {
+  z-index: -1;
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
@@ -12227,6 +12243,22 @@ textarea.form-control-lg {
   background-color: #fcfcfd !important;
 }
 
+.border-brand-primary {
+  border-color: #4a69e8 !important;
+}
+
+.border-brand-secondary {
+  border-color: #36c99f !important;
+}
+
+.border-brand-black {
+  border-color: #141a1f !important;
+}
+
+.border-brand-white {
+  border-color: #fcfcfd !important;
+}
+
 .border-neutral-95 {
   border-color: #f0f3f5 !important;
 }
@@ -12317,6 +12349,10 @@ textarea.form-control-lg {
 
 .max-width-4 {
   max-width: 39.75rem !important;
+}
+
+.max-width-5 {
+  max-width: 50rem !important;
 }
 
 .min-width-1 {
