@@ -8793,8 +8793,28 @@ textarea.form-control-lg {
   z-index: -2;
 }
 
+.bg-linear-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f0f3f5), color-stop(50%, #f0f3f5), color-stop(50%, #fcfcfd), to(#fcfcfd));
+  background: linear-gradient(to bottom, #f0f3f5 0%, #f0f3f5 50%, #fcfcfd 50%, #fcfcfd 100%);
+}
+
+.bg-3 {
+  background: url(../../img/service/subscribe.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .end-440 {
   right: 100px;
+}
+
+.start-24 {
+  left: 24px;
+}
+
+.end-24 {
+  right: 24px;
 }
 
 .z-n1 {
@@ -12355,12 +12375,20 @@ textarea.form-control-lg {
   max-width: 50rem !important;
 }
 
+.max-width-6 {
+  max-width: 53.5rem !important;
+}
+
 .min-width-1 {
   min-width: 25rem !important;
 }
 
 .min-width-2 {
   min-width: 20rem !important;
+}
+
+.min-width-3 {
+  min-width: 26rem !important;
 }
 
 @media (min-width: 576px) {
@@ -13986,6 +14014,9 @@ textarea.form-control-lg {
   .min-width-sm-2 {
     min-width: 20rem !important;
   }
+  .min-width-sm-3 {
+    min-width: 26rem !important;
+  }
 }
 @media (min-width: 768px) {
   .float-md-start {
@@ -15609,6 +15640,9 @@ textarea.form-control-lg {
   }
   .min-width-md-2 {
     min-width: 20rem !important;
+  }
+  .min-width-md-3 {
+    min-width: 26rem !important;
   }
 }
 @media (min-width: 992px) {
@@ -17234,6 +17268,9 @@ textarea.form-control-lg {
   .min-width-lg-2 {
     min-width: 20rem !important;
   }
+  .min-width-lg-3 {
+    min-width: 26rem !important;
+  }
 }
 @media (min-width: 1200px) {
   .float-xl-start {
@@ -18858,6 +18895,9 @@ textarea.form-control-lg {
   .min-width-xl-2 {
     min-width: 20rem !important;
   }
+  .min-width-xl-3 {
+    min-width: 26rem !important;
+  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -20481,6 +20521,9 @@ textarea.form-control-lg {
   }
   .min-width-xxl-2 {
     min-width: 20rem !important;
+  }
+  .min-width-xxl-3 {
+    min-width: 26rem !important;
   }
 }
 @media print {
