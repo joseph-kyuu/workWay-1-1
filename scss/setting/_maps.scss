@@ -74,6 +74,8 @@ $spacers: (
   13: $spacing-312,
   14: $spacing-100,
   15: $spacing-192,
+  16: $spacing-140,
+  17: $spacing-200,
 );
 
 $font-sizes: (
@@ -94,12 +96,14 @@ $max-width-c: (
   4: $max-w-636,
   5: $max-w-800,
   6: $max-w-856,
+  7: $max-w-120,
 );
 
 $min-width-c: (
   1: $min-w-400,
   2: $min-w-320,
   3: $min-w-416,
+  4: $min-w-120,
 );
 
 $radius: (
