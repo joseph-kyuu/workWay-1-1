@@ -65,7 +65,169 @@
         </li>
       </ul>
     </header>
-    <main class="py-9"></main>
+    <main class="py-9">
+      <section class="container d-flex radius-4 shadow px-0 flex-row-reverse">
+        <!-- 圖片 -->
+
+        <img
+          class="max-width-9 radius-top-end radius-bottom-end d-none d-xl-flex"
+          src="./img/about/register.png"
+          alt="品牌形象圖"
+        />
+        <!-- 表單 -->
+        <div class="p-9 p-6 flex-grow-1">
+          <form class="d-flex flex-column gap-sm-9 gap-6" action="">
+            <!-- 標題 -->
+            <h2 class="text-center">註冊</h2>
+            <!-- google、discord、帳號、密碼 -->
+            <div>
+              <!-- google、discord -->
+              <div
+                class="d-flex flex-column gap-4 border-bottom border-neutral-85 pb-6"
+              >
+                <button
+                  class="btn py-3 d-flex justify-content-center align-items-center gap-1 w-100 border border-neutral-85 radius-3"
+                >
+                  <span>
+                    <img src="./img/icon/google.png" alt="google" />
+                  </span>
+                  <span>Google</span>
+                </button>
+                <button
+                  class="btn py-3 d-flex justify-content-center align-items-center gap-1 w-100 border border-neutral-85 radius-3"
+                >
+                  <span>
+                    <img src="./img/icon/discord.png" alt="discord" />
+                  </span>
+                  <span>Discord</span>
+                </button>
+              </div>
+              <!-- 帳號、密碼 -->
+              <div class="d-flex flex-column gap-4">
+                <!-- 帳號 -->
+                <div class="pt-6">
+                  <input
+                    type="email"
+                    id="account"
+                    class="form-control py-4 border-neutral-85"
+                    aria-describedby="accountBlock"
+                    placeholder="帳號"
+                  />
+                </div>
+                <!-- 密碼 -->
+                <div class="position-relative">
+                  <input
+                    type="password"
+                    id="password"
+                    class="form-control py-4 border-neutral-85"
+                    aria-describedby="passwordBlock"
+                    placeholder="密碼"
+                  />
+                  <span>
+                    <img
+                      class="position-absolute top-50 end-12 translate-middle-y"
+                      src="./img/icon/visibility.png"
+                      alt="隱藏"
+                    />
+                  </span>
+                </div>
+                <!-- 密碼 -->
+                <div class="position-relative">
+                  <input
+                    type="password"
+                    id="password"
+                    class="form-control py-4 border-neutral-85"
+                    aria-describedby="passwordBlock"
+                    placeholder="密碼"
+                  />
+                  <span>
+                    <img
+                      class="position-absolute top-50 end-12 translate-middle-y"
+                      src="./img/icon/visibility.png"
+                      alt="隱藏"
+                    />
+                  </span>
+                </div>
+                <!-- 確認密碼 -->
+                <div class="position-relative">
+                  <input
+                    type="password"
+                    id="password"
+                    class="form-control py-4 border-neutral-85"
+                    aria-describedby="passwordBlock"
+                    placeholder="確認密碼"
+                  />
+                  <span>
+                    <img
+                      class="position-absolute top-50 end-12 translate-middle-y"
+                      src="./img/icon/visibility.png"
+                      alt="隱藏"
+                    />
+                  </span>
+                </div>
+                <!-- 同意 -->
+                <div class="form-check d-flex align-items-center gap-1 mb-0">
+                  <!-- 核取方塊 -->
+                  <input
+                    class="form-check-input border-neutral-85 height-2 width-1"
+                    type="checkbox"
+                    value="平日上午(9:00-12:00)"
+                    id="checkDefault"
+                  />
+                  <label
+                    class="form-check-label fs-8 fw-normal d-flex justify-content-center align-items-center"
+                    for="checkDefault"
+                  >
+                    我同意
+                    <a class="d-flex align-items-center gap-1" href="#">
+                      <span
+                        class="text-brand-primary fw-medium lh-1p2 text-decoration-underline"
+                      >
+                        服務條款
+                      </span>
+                    </a>
+                    和
+                    <a class="d-flex align-items-center gap-1" href="#">
+                      <span
+                        class="text-brand-primary fw-medium lh-1p2 text-decoration-underline"
+                      >
+                        服務條款
+                      </span>
+                    </a>
+                  </label>
+                </div>
+
+                <!-- CTA -->
+                <a class="btn btn-large btn-black-filled" href="#">
+                  <span class="fs-7 fw-normal">送出</span>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="28px"
+                      viewBox="0 -960 960 960"
+                      width="28px"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <!-- 登入 -->
+            <a href="#" class="text-center">
+              <span class="text-neutral-50 fw-medium lh-1p2">已經會員？</span>
+              <span
+                class="text-brand-primary fw-medium lh-1p2 text-decoration-underline"
+                >直接登入</span
+              >
+            </a>
+          </form>
+        </div>
+      </section>
+    </main>
     <footer class="py-sm-9 py-6 bg-neutral-95 border-top border-neutral-85">
       <!-- 選單、版權 -->
       <ul
