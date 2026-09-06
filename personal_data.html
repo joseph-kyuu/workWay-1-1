@@ -65,7 +65,297 @@
         </li>
       </ul>
     </header>
-
+    <main class="py-12 bg-neutral-95">
+      <!-- 按鈕 -->
+      <section class="container mb-6 d-flex justify-content-center gap-6">
+        <!-- 個人資料 -->
+        <a
+          class="btn btn-normal btn-white2-filled d-flex justify-content-center align-items-center gap-1"
+          href="#"
+        >
+          <span>
+            <svg
+              class="d-flex justify-content-center align-items-center"
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="currentColor"
+            >
+              <path
+                d="M324.5-404.5Q310-419 310-440t14.5-35.5Q339-490 360-490t35.5 14.5Q410-461 410-440t-14.5 35.5Q381-390 360-390t-35.5-14.5Zm240 0Q550-419 550-440t14.5-35.5Q579-490 600-490t35.5 14.5Q650-461 650-440t-14.5 35.5Q621-390 600-390t-35.5-14.5ZM480-160q134 0 227-93t93-227q0-24-3-46.5T786-570q-21 5-42 7.5t-44 2.5q-91 0-172-39T390-708q-32 78-91.5 135.5T160-486v6q0 134 93 227t227 93Zm0 80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-54-715q42 70 114 112.5T700-640q14 0 27-1.5t27-3.5q-42-70-114-112.5T480-800q-14 0-27 1.5t-27 3.5ZM177-581q51-29 89-75t57-103q-51 29-89 75t-57 103Zm249-214Zm-103 36Z"
+              />
+            </svg>
+          </span>
+          <span class="fw-normal">個人資料</span>
+        </a>
+        <!-- 預約紀錄 -->
+        <a
+          class="btn btn-normal btn-white2-filled d-flex justify-content-center align-items-center gap-1"
+          href="#"
+        >
+          <span>
+            <svg
+              class="d-flex justify-content-center align-items-center"
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="currentColor"
+            >
+              <path
+                d="M200-640h560v-80H200v80Zm0 0v-80 80Zm0 560q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v227q-19-9-39-15t-41-9v-43H200v400h252q7 22 16.5 42T491-80H200Zm378.5-18.5Q520-157 520-240t58.5-141.5Q637-440 720-440t141.5 58.5Q920-323 920-240T861.5-98.5Q803-40 720-40T578.5-98.5ZM787-145l28-28-75-75v-112h-40v128l87 87Z"
+              />
+            </svg>
+          </span>
+          <span class="fw-normal">預約紀錄</span>
+        </a>
+        <!-- 職旅計劃 -->
+        <a
+          class="btn btn-normal btn-white2-filled d-flex justify-content-center align-items-center gap-1"
+          href="#"
+        >
+          <span>
+            <svg
+              class="d-flex justify-content-center align-items-center"
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="currentColor"
+            >
+              <path
+                d="M348.5-291.5Q360-303 360-320t-11.5-28.5Q337-360 320-360t-28.5 11.5Q280-337 280-320t11.5 28.5Q303-280 320-280t28.5-11.5Zm0-160Q360-463 360-480t-11.5-28.5Q337-520 320-520t-28.5 11.5Q280-497 280-480t11.5 28.5Q303-440 320-440t28.5-11.5Zm0-160Q360-623 360-640t-11.5-28.5Q337-680 320-680t-28.5 11.5Q280-657 280-640t11.5 28.5Q303-600 320-600t28.5-11.5ZM440-280h240v-80H440v80Zm0-160h240v-80H440v80Zm0-160h240v-80H440v80ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"
+              />
+            </svg>
+          </span>
+          <span class="fw-normal">職旅計劃</span>
+        </a>
+      </section>
+      <!-- 表單 -->
+      <section class="container p-9 bg-brand-white radius-4 shadow">
+        <form class="d-flex flex-column gap-9">
+          <!-- 標題、欄位 -->
+          <div class="d-flex">
+            <!-- 標題 -->
+            <div class="flex-grow-1 max-width-8 fs-4 fw-medium lh-1p2">
+              個人資料
+            </div>
+            <!-- 欄位 -->
+            <div class="d-flex flex-column gap-6 flex-grow-1">
+              <!-- 大頭貼 -->
+              <div class="d-flex gap-4 align-items-end">
+                <img src="./img/personal_data/Profile.png" alt="大頭貼" />
+                <a
+                  class="btn btn-normal btn-white2-filled d-flex justify-content-center align-items-center gap-1"
+                  href="#"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20px"
+                      viewBox="0 -960 960 960"
+                      width="20px"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"
+                      />
+                    </svg>
+                  </span>
+                  <span class="fw-normal">個人資料</span>
+                </a>
+              </div>
+              <!-- 姓名 -->
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nameInput"
+                  placeholder="姓名"
+                  value="Mokumaru"
+                />
+                <label for="floatingInput">姓名</label>
+              </div>
+              <!-- 性別 單選-->
+              <div class="d-flex flex-column gap-2">
+                <!-- 標題 -->
+                <h3 class="fs-7 fw-normal">偏好聯絡方式</h3>
+                <!-- 單選 -->
+                <div class="d-flex gap-6 flex-wrap px-2">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input border-neutral-85 height-2 width-1"
+                      type="radio"
+                      value="女性"
+                      name="gender"
+                      id="femaleRadio"
+                      checked
+                    />
+                    <label
+                      class="form-check-label fs-8 fw-normal"
+                      for="femaleRadio"
+                    >
+                      女性
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input border-neutral-85 height-2 width-1"
+                      type="radio"
+                      value="男性"
+                      name="gender"
+                      id="maleRadio"
+                    />
+                    <label
+                      class="form-check-label fs-8 fw-normal"
+                      for="maleRadio"
+                    >
+                      男性
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input border-neutral-85 height-2 width-1"
+                      type="radio"
+                      value="不願透露"
+                      name="gender"
+                      id="noRadio"
+                    />
+                    <label
+                      class="form-check-label fs-8 fw-normal"
+                      for="noRadio"
+                    >
+                      不願透露
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- 生日 -->
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="birthInput"
+                  placeholder="生日"
+                  value="2000/01/10"
+                />
+                <label for="floatingInput">生日</label>
+              </div>
+              <!-- 密碼 -->
+              <div class="d-flex flex-column gap-2">
+                <!-- 標題 -->
+                <h3 class="fs-7 fw-normal">密碼</h3>
+                <!-- 按鈕 -->
+                <a
+                  class="btn btn-large btn-white-filled d-flex justify-content-center align-items-center align-self-start"
+                  href="#"
+                >
+                  <span class="fs-7 fw-normal">修改密碼</span>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="28px"
+                      viewBox="0 -960 960 960"
+                      width="28px"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <!-- 信箱 -->
+              <div class="form-floating">
+                <input
+                  type="tel"
+                  id="floatingInput"
+                  class="form-control border-neutral-85"
+                  aria-describedby="telBlock"
+                  placeholder="mokumaru@mail.com"
+                  value="mokumaru@mail.com"
+                />
+                <label for="floatingInput">信箱</label>
+                <div
+                  id="passwordHelpBlock"
+                  class="form-text text-neutral-50 fw-normal"
+                >
+                  盡量勿使用Yahoo或Hotmail郵件信箱，以免因擋信、漏信
+                </div>
+              </div>
+              <!-- 聯絡電話 -->
+              <div class="form-floating">
+                <input
+                  type="tel"
+                  id="floatingInput"
+                  class="form-control border-neutral-85"
+                  aria-describedby="telBlock"
+                  placeholder="聯絡電話"
+                  value="09-1234-5678"
+                />
+                <label for="floatingInput">聯絡電話</label>
+              </div>
+              <!-- 地址 -->
+              <div class="form-floating">
+                <input
+                  type="tel"
+                  id="floatingInput"
+                  class="form-control border-neutral-85"
+                  aria-describedby="telBlock"
+                  placeholder="通訊地址"
+                  value="高雄市三民區九如一路 87 號"
+                />
+                <label for="floatingInput">通訊地址</label>
+              </div>
+            </div>
+          </div>
+          <!-- 按鈕 -->
+          <!-- CTA -->
+          <div class="d-flex gap-6 justify-content-center">
+            <a
+              class="btn btn-large btn-white-filled d-flex justify-content-center align-items-center align-self-start"
+              href="#"
+            >
+              <span class="fs-7 fw-normal">重新填寫</span>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="28px"
+                  viewBox="0 -960 960 960"
+                  width="28px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                  />
+                </svg>
+              </span>
+            </a>
+            <a
+              class="btn btn-large btn-black-filled d-flex justify-content-center align-items-center align-self-start"
+              href="#"
+            >
+              <span class="fs-7 fw-normal">確認送出</span>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="28px"
+                  viewBox="0 -960 960 960"
+                  width="28px"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </form>
+      </section>
+    </main>
     <footer class="py-sm-9 py-6 bg-neutral-95 border-top border-neutral-85">
       <!-- 選單、版權 -->
       <ul

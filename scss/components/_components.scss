@@ -52,6 +52,11 @@
   @include btn-size($spacing-12, $spacing-12, $spacing-12, $spacing-20);
 }
 
+.btn-normal {
+  /* 內間距 */
+  @include btn-size($spacing-12, $spacing-20, $spacing-12, $spacing-20);
+}
+
 .btn-small {
   /* 內間距 */
   @include btn-size($spacing-4, $spacing-4, $spacing-4, $spacing-8);
