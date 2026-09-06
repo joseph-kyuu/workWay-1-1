@@ -8812,6 +8812,14 @@ textarea.form-control-lg {
   padding-left: 1.25rem;
 }
 
+.btn-normal {
+  /* 內間距 */
+  padding-top: 0.75rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+}
+
 .btn-small {
   /* 內間距 */
   padding-top: 0.25rem;
