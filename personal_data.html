@@ -67,10 +67,12 @@
     </header>
     <main class="py-12 bg-neutral-95">
       <!-- 按鈕 -->
-      <section class="container mb-6 d-flex justify-content-center gap-6">
+      <section
+        class="container mb-6 d-flex justify-content-center gap-sm-6 gap-4"
+      >
         <!-- 個人資料 -->
         <a
-          class="btn btn-normal btn-white2-filled d-flex justify-content-center align-items-center gap-1"
+          class="btn btn-normal btn-white2-filled fs-sm-7 fs-8 px-sm-5 px-3 d-flex justify-content-center align-items-center gap-sm-1 gap-0"
           href="#"
         >
           <span>
@@ -91,7 +93,7 @@
         </a>
         <!-- 預約紀錄 -->
         <a
-          class="btn btn-normal btn-white2-filled d-flex justify-content-center align-items-center gap-1"
+          class="btn btn-normal btn-white2-filled fs-sm-7 fs-8 px-sm-5 px-3 d-flex justify-content-center align-items-center gap-sm-1 gap-0"
           href="#"
         >
           <span>
@@ -112,7 +114,7 @@
         </a>
         <!-- 職旅計劃 -->
         <a
-          class="btn btn-normal btn-white2-filled d-flex justify-content-center align-items-center gap-1"
+          class="btn btn-normal btn-white2-filled fs-sm-7 fs-8 px-sm-5 px-3 d-flex justify-content-center align-items-center gap-sm-1 gap-0"
           href="#"
         >
           <span>
@@ -133,227 +135,231 @@
         </a>
       </section>
       <!-- 表單 -->
-      <section class="container p-9 bg-brand-white radius-4 shadow">
-        <form class="d-flex flex-column gap-9">
-          <!-- 標題、欄位 -->
-          <div class="d-flex">
-            <!-- 標題 -->
-            <div class="flex-grow-1 max-width-8 fs-4 fw-medium lh-1p2">
-              個人資料
-            </div>
-            <!-- 欄位 -->
-            <div class="d-flex flex-column gap-6 flex-grow-1">
-              <!-- 大頭貼 -->
-              <div class="d-flex gap-4 align-items-end">
-                <img src="./img/personal_data/Profile.png" alt="大頭貼" />
-                <a
-                  class="btn btn-normal btn-white2-filled d-flex justify-content-center align-items-center gap-1"
-                  href="#"
-                >
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20px"
-                      viewBox="0 -960 960 960"
-                      width="20px"
-                      fill="currentColor"
-                    >
-                      <path
-                        d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"
+      <section class="container">
+        <div class="p-md-9 p-6 bg-brand-white radius-4 shadow">
+          <form class="d-flex flex-column gap-md-9 gap-6">
+            <!-- 標題、欄位 -->
+            <div class="d-flex flex-column flex-md-row gap-4 gap-md-0">
+              <!-- 標題 -->
+              <div class="flex-grow-1 max-width-8 fs-4 fw-medium lh-1p2">
+                個人資料
+              </div>
+              <!-- 欄位 -->
+              <div class="d-flex flex-column gap-md-6 gap-4 flex-grow-1">
+                <!-- 大頭貼 -->
+                <div class="d-flex gap-4 align-items-end">
+                  <img src="./img/personal_data/Profile.png" alt="大頭貼" />
+                  <a
+                    class="btn btn-normal btn-white2-filled d-flex justify-content-center align-items-center gap-1"
+                    href="#"
+                  >
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="20px"
+                        viewBox="0 -960 960 960"
+                        width="20px"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"
+                        />
+                      </svg>
+                    </span>
+                    <span class="fw-normal">個人資料</span>
+                  </a>
+                </div>
+                <!-- 姓名 -->
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nameInput"
+                    placeholder="姓名"
+                    value="Mokumaru"
+                  />
+                  <label for="floatingInput">姓名</label>
+                </div>
+                <!-- 性別 單選-->
+                <div class="d-flex flex-column gap-2">
+                  <!-- 標題 -->
+                  <h3 class="fs-7 fw-normal">性別</h3>
+                  <!-- 單選 -->
+                  <div class="d-flex gap-6 flex-wrap px-2">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input border-neutral-85 height-2 width-1"
+                        type="radio"
+                        value="女性"
+                        name="gender"
+                        id="femaleRadio"
+                        checked
                       />
-                    </svg>
-                  </span>
-                  <span class="fw-normal">個人資料</span>
-                </a>
-              </div>
-              <!-- 姓名 -->
-              <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="nameInput"
-                  placeholder="姓名"
-                  value="Mokumaru"
-                />
-                <label for="floatingInput">姓名</label>
-              </div>
-              <!-- 性別 單選-->
-              <div class="d-flex flex-column gap-2">
-                <!-- 標題 -->
-                <h3 class="fs-7 fw-normal">偏好聯絡方式</h3>
-                <!-- 單選 -->
-                <div class="d-flex gap-6 flex-wrap px-2">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input border-neutral-85 height-2 width-1"
-                      type="radio"
-                      value="女性"
-                      name="gender"
-                      id="femaleRadio"
-                      checked
-                    />
-                    <label
-                      class="form-check-label fs-8 fw-normal"
-                      for="femaleRadio"
-                    >
-                      女性
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input border-neutral-85 height-2 width-1"
-                      type="radio"
-                      value="男性"
-                      name="gender"
-                      id="maleRadio"
-                    />
-                    <label
-                      class="form-check-label fs-8 fw-normal"
-                      for="maleRadio"
-                    >
-                      男性
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input border-neutral-85 height-2 width-1"
-                      type="radio"
-                      value="不願透露"
-                      name="gender"
-                      id="noRadio"
-                    />
-                    <label
-                      class="form-check-label fs-8 fw-normal"
-                      for="noRadio"
-                    >
-                      不願透露
-                    </label>
+                      <label
+                        class="form-check-label fs-8 fw-normal"
+                        for="femaleRadio"
+                      >
+                        女性
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input border-neutral-85 height-2 width-1"
+                        type="radio"
+                        value="男性"
+                        name="gender"
+                        id="maleRadio"
+                      />
+                      <label
+                        class="form-check-label fs-8 fw-normal"
+                        for="maleRadio"
+                      >
+                        男性
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input border-neutral-85 height-2 width-1"
+                        type="radio"
+                        value="不願透露"
+                        name="gender"
+                        id="noRadio"
+                      />
+                      <label
+                        class="form-check-label fs-8 fw-normal"
+                        for="noRadio"
+                      >
+                        不願透露
+                      </label>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <!-- 生日 -->
-              <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="birthInput"
-                  placeholder="生日"
-                  value="2000/01/10"
-                />
-                <label for="floatingInput">生日</label>
-              </div>
-              <!-- 密碼 -->
-              <div class="d-flex flex-column gap-2">
-                <!-- 標題 -->
-                <h3 class="fs-7 fw-normal">密碼</h3>
-                <!-- 按鈕 -->
-                <a
-                  class="btn btn-large btn-white-filled d-flex justify-content-center align-items-center align-self-start"
-                  href="#"
-                >
-                  <span class="fs-7 fw-normal">修改密碼</span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="28px"
-                      viewBox="0 -960 960 960"
-                      width="28px"
-                      fill="currentColor"
-                    >
-                      <path
-                        d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
-                      />
-                    </svg>
-                  </span>
-                </a>
-              </div>
-              <!-- 信箱 -->
-              <div class="form-floating">
-                <input
-                  type="tel"
-                  id="floatingInput"
-                  class="form-control border-neutral-85"
-                  aria-describedby="telBlock"
-                  placeholder="mokumaru@mail.com"
-                  value="mokumaru@mail.com"
-                />
-                <label for="floatingInput">信箱</label>
-                <div
-                  id="passwordHelpBlock"
-                  class="form-text text-neutral-50 fw-normal"
-                >
-                  盡量勿使用Yahoo或Hotmail郵件信箱，以免因擋信、漏信
+                <!-- 生日 -->
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="birthInput"
+                    placeholder="生日"
+                    value="2000/01/10"
+                  />
+                  <label for="floatingInput">生日</label>
+                </div>
+                <!-- 密碼 -->
+                <div class="d-flex flex-column gap-2">
+                  <!-- 標題 -->
+                  <h3 class="fs-7 fw-normal">密碼</h3>
+                  <!-- 按鈕 -->
+                  <a
+                    class="btn btn-large btn-white-filled d-flex justify-content-center align-items-center align-self-start"
+                    href="#"
+                  >
+                    <span class="fs-7 fw-normal">修改密碼</span>
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="28px"
+                        viewBox="0 -960 960 960"
+                        width="28px"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+                <!-- 信箱 -->
+                <div class="form-floating">
+                  <input
+                    type="tel"
+                    id="floatingInput"
+                    class="form-control border-neutral-85"
+                    aria-describedby="telBlock"
+                    placeholder="mokumaru@mail.com"
+                    value="mokumaru@mail.com"
+                  />
+                  <label for="floatingInput">信箱</label>
+                  <div
+                    id="passwordHelpBlock"
+                    class="form-text text-neutral-50 fw-normal"
+                  >
+                    盡量勿使用Yahoo或Hotmail郵件信箱，以免因擋信、漏信
+                  </div>
+                </div>
+                <!-- 聯絡電話 -->
+                <div class="form-floating">
+                  <input
+                    type="tel"
+                    id="floatingInput"
+                    class="form-control border-neutral-85"
+                    aria-describedby="telBlock"
+                    placeholder="聯絡電話"
+                    value="09-1234-5678"
+                  />
+                  <label for="floatingInput">聯絡電話</label>
+                </div>
+                <!-- 地址 -->
+                <div class="form-floating">
+                  <input
+                    type="tel"
+                    id="floatingInput"
+                    class="form-control border-neutral-85"
+                    aria-describedby="telBlock"
+                    placeholder="通訊地址"
+                    value="高雄市三民區九如一路 87 號"
+                  />
+                  <label for="floatingInput">通訊地址</label>
                 </div>
               </div>
-              <!-- 聯絡電話 -->
-              <div class="form-floating">
-                <input
-                  type="tel"
-                  id="floatingInput"
-                  class="form-control border-neutral-85"
-                  aria-describedby="telBlock"
-                  placeholder="聯絡電話"
-                  value="09-1234-5678"
-                />
-                <label for="floatingInput">聯絡電話</label>
-              </div>
-              <!-- 地址 -->
-              <div class="form-floating">
-                <input
-                  type="tel"
-                  id="floatingInput"
-                  class="form-control border-neutral-85"
-                  aria-describedby="telBlock"
-                  placeholder="通訊地址"
-                  value="高雄市三民區九如一路 87 號"
-                />
-                <label for="floatingInput">通訊地址</label>
-              </div>
             </div>
-          </div>
-          <!-- 按鈕 -->
-          <!-- CTA -->
-          <div class="d-flex gap-6 justify-content-center">
-            <a
-              class="btn btn-large btn-white-filled d-flex justify-content-center align-items-center align-self-start"
-              href="#"
+            <!-- 按鈕 -->
+            <!-- CTA -->
+            <div
+              class="d-flex flex-sm-row flex-column gap-sm-6 gap-4 justify-content-center align-items-start"
             >
-              <span class="fs-7 fw-normal">重新填寫</span>
-              <span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="28px"
-                  viewBox="0 -960 960 960"
-                  width="28px"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
-                  />
-                </svg>
-              </span>
-            </a>
-            <a
-              class="btn btn-large btn-black-filled d-flex justify-content-center align-items-center align-self-start"
-              href="#"
-            >
-              <span class="fs-7 fw-normal">確認送出</span>
-              <span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="28px"
-                  viewBox="0 -960 960 960"
-                  width="28px"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
-                  />
-                </svg>
-              </span>
-            </a>
-          </div>
-        </form>
+              <a
+                class="btn btn-large btn-white-filled d-flex justify-content-center align-items-center w-100"
+                href="#"
+              >
+                <span class="fs-7 fw-normal">重新填寫</span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="28px"
+                    viewBox="0 -960 960 960"
+                    width="28px"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                    />
+                  </svg>
+                </span>
+              </a>
+              <a
+                class="btn btn-large btn-black-filled d-flex justify-content-center align-items-center w-100"
+                href="#"
+              >
+                <span class="fs-7 fw-normal">確認送出</span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="28px"
+                    viewBox="0 -960 960 960"
+                    width="28px"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="py-sm-9 py-6 bg-neutral-95 border-top border-neutral-85">
