@@ -136,7 +136,188 @@
       </section>
       <!-- 表單 -->
       <section class="container">
-        <div class="p-md-9 p-6 bg-brand-white radius-4 shadow"></div>
+        <div
+          class="d-flex flex-column gap-9 p-md-9 p-6 bg-brand-white radius-4 shadow"
+        >
+          <!-- 預約紀錄 -->
+          <div class="d-flex flex-column gap-6">
+            <!-- 標題 -->
+            <h2>預約紀錄</h2>
+            <!-- 紀錄清單 -->
+            <ul class="list-unstyled d-flex gap-6">
+              <li
+                class="py-6 radius-4 bg-brand-white border border-neutral-85 text-center flex-grow-1"
+              >
+                <h3 class="fs-2 text-brand-primary fw-bold lh-1p2">3</h3>
+                <p class="fs-6 text-neutral-50 fw-normal">已完成諮詢</p>
+              </li>
+              <li
+                class="py-6 radius-4 bg-brand-white border border-neutral-85 text-center flex-grow-1"
+              >
+                <h3 class="fs-2 text-brand-primary fw-bold lh-1p2">
+                  2025/10/10
+                </h3>
+                <p class="fs-6 text-neutral-50 fw-normal">即將到來</p>
+              </li>
+              <li
+                class="py-6 radius-4 bg-brand-white border border-neutral-85 text-center flex-grow-1"
+              >
+                <h3 class="fs-2 text-brand-primary fw-bold lh-1p2">3/6</h3>
+                <p class="fs-6 text-neutral-50 fw-normal">使用方案進度</p>
+              </li>
+            </ul>
+          </div>
+          <!-- 預約表格 -->
+          <div class="d-flex flex-column gap-6">
+            <!-- 按鈕 -->
+            <ul class="list-unstyled d-flex justify-content-between">
+              <li class="d-flex gap-2">
+                <!-- 全部預約 -->
+                <a
+                  class="btn btn-normal btn-white3-filled d-flex justify-content-center align-items-center"
+                  href="#"
+                >
+                  <span class="fw-normal">全部預約</span>
+                </a>
+                <!-- 已完成 -->
+                <a
+                  class="btn btn-normal btn-white3-filled d-flex justify-content-center align-items-center"
+                  href="#"
+                >
+                  <span class="fw-normal">已完成</span>
+                </a>
+                <!-- 已取消 -->
+                <a
+                  class="btn btn-normal btn-white3-filled d-flex justify-content-center align-items-center"
+                  href="#"
+                >
+                  <span class="fw-normal">已取消</span>
+                </a>
+              </li>
+              <li>
+                <!-- 個人資料 -->
+                <a
+                  class="btn btn-normal btn-white2-filled fs-sm-7 fs-8 px-sm-5 px-3 d-flex justify-content-center align-items-center gap-sm-1 gap-0"
+                  href="#"
+                >
+                  <span>
+                    <svg
+                      class="d-flex justify-content-center align-items-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20px"
+                      viewBox="0 -960 960 960"
+                      width="20px"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M324.5-404.5Q310-419 310-440t14.5-35.5Q339-490 360-490t35.5 14.5Q410-461 410-440t-14.5 35.5Q381-390 360-390t-35.5-14.5Zm240 0Q550-419 550-440t14.5-35.5Q579-490 600-490t35.5 14.5Q650-461 650-440t-14.5 35.5Q621-390 600-390t-35.5-14.5ZM480-160q134 0 227-93t93-227q0-24-3-46.5T786-570q-21 5-42 7.5t-44 2.5q-91 0-172-39T390-708q-32 78-91.5 135.5T160-486v6q0 134 93 227t227 93Zm0 80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-54-715q42 70 114 112.5T700-640q14 0 27-1.5t27-3.5q-42-70-114-112.5T480-800q-14 0-27 1.5t-27 3.5ZM177-581q51-29 89-75t57-103q-51 29-89 75t-57 103Zm249-214Zm-103 36Z"
+                      />
+                    </svg>
+                  </span>
+                  <span class="fw-normal">個人資料</span>
+                </a>
+              </li>
+            </ul>
+            <!-- 表格 -->
+            <table class="table table-striped border-neutral-85">
+              <thead>
+                <tr class="text-nowrap">
+                  <th class="p-3" scope="col">諮詢方案</th>
+                  <th class="p-3 width-2" scope="col">預約日期</th>
+                  <th class="p-3 width-2" scope="col">諮詢時長</th>
+                  <th class="p-3 width-2" scope="col">諮詢方式</th>
+                  <th class="p-3 width-2" scope="col">上課狀態</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="py-4 px-3 fw-normal" scope="row">
+                    職涯定位-職涯探索包 | 6/6堂
+                  </th>
+                  <td class="py-4 px-3 width-2 fw-normal">2025/11/11</td>
+                  <td class="py-4 px-3">60分鐘</td>
+                  <td class="py-4 px-3 width-2 fw-normal">
+                    <span
+                      class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                      >視訊</span
+                    >
+                  </td>
+                  <td class="py-4 px-3 width-2 fw-normal">等待上課</td>
+                </tr>
+                <tr>
+                  <th class="py-4 px-3 fw-normal" scope="row">
+                    職涯定位-職涯探索包 | 6/6堂
+                  </th>
+                  <td class="py-4 px-3 width-2 fw-normal">2025/11/11</td>
+                  <td class="py-4 px-3">60分鐘</td>
+                  <td class="py-4 px-3 width-2 fw-normal">
+                    <span
+                      class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                      >視訊</span
+                    >
+                  </td>
+                  <td class="py-4 px-3 width-2 fw-normal">等待上課</td>
+                </tr>
+                <tr>
+                  <th class="py-4 px-3 fw-normal" scope="row">
+                    職涯定位-職涯探索包 | 6/6堂
+                  </th>
+                  <td class="py-4 px-3 width-2 fw-normal">2025/11/11</td>
+                  <td class="py-4 px-3">60分鐘</td>
+                  <td class="py-4 px-3 width-2 fw-normal">
+                    <span
+                      class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                      >視訊</span
+                    >
+                  </td>
+                  <td class="py-4 px-3 width-2 fw-normal">等待上課</td>
+                </tr>
+                <tr>
+                  <th class="py-4 px-3 fw-normal" scope="row">
+                    職涯定位-職涯探索包 | 6/6堂
+                  </th>
+                  <td class="py-4 px-3 width-2 fw-normal">2025/11/11</td>
+                  <td class="py-4 px-3">60分鐘</td>
+                  <td class="py-4 px-3 width-2 fw-normal">
+                    <span
+                      class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                      >視訊</span
+                    >
+                  </td>
+                  <td class="py-4 px-3 width-2 fw-normal">等待上課</td>
+                </tr>
+                <tr>
+                  <th class="py-4 px-3 fw-normal" scope="row">
+                    職涯定位-職涯探索包 | 6/6堂
+                  </th>
+                  <td class="py-4 px-3 width-2 fw-normal">2025/11/11</td>
+                  <td class="py-4 px-3">60分鐘</td>
+                  <td class="py-4 px-3 width-2 fw-normal">
+                    <span
+                      class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                      >視訊</span
+                    >
+                  </td>
+                  <td class="py-4 px-3 width-2 fw-normal">等待上課</td>
+                </tr>
+                <tr>
+                  <th class="py-4 px-3 fw-normal" scope="row">
+                    職涯定位-職涯探索包 | 6/6堂
+                  </th>
+                  <td class="py-4 px-3 width-2 fw-normal">2025/11/11</td>
+                  <td class="py-4 px-3">60分鐘</td>
+                  <td class="py-4 px-3 width-2 fw-normal">
+                    <span
+                      class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                      >視訊</span
+                    >
+                  </td>
+                  <td class="py-4 px-3 width-2 fw-normal">等待上課</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="py-sm-9 py-6 bg-neutral-95 border-top border-neutral-85">

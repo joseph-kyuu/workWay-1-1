@@ -10,21 +10,15 @@
 // 我的 variables ( Design System )
 @import "./scss/setting/variables";
 
+// BS5 Variables、variables-dark
+@import "./modules/bootstrap-5.3.8/scss/variables";
+@import "./modules/bootstrap-5.3.8/scss/variables-dark";
+
 // 我的 Maps
 @import "./scss/setting/maps";
 
 // 我的 Mixins
 @import "./scss/tools/mixins";
-
-// BS5 Variables、variables-dark
-@import "./modules/bootstrap-5.3.8/scss/variables";
-@import "./modules/bootstrap-5.3.8/scss/variables-dark";
-
-// BS5  Maps、Mixins、Utilities
-@import "./modules/bootstrap-5.3.8/scss/maps";
-@import "./modules/bootstrap-5.3.8/scss/mixins";
-@import "./modules/bootstrap-5.3.8/scss/root";
-@import "./modules/bootstrap-5.3.8/scss/utilities";
 
 /*
 =====================
@@ -32,25 +26,19 @@
 =====================
 */
 
-// BS5 Components Reboot
-@import "./modules/bootstrap-5.3.8/scss/reboot";
-
 // 我的 Reset
 @import "./scss/reset/reset";
+
+// BS5 Utilities
+@import "./modules/bootstrap-5.3.8/scss/utilities";
 
 // 我的 Utilities
 @import "./scss/utilities/utilities";
 
-// BS5 Components ( 另外統整 )
-@import "./scss/components/boostrap_components";
-
-// BS5 Utilities API
-@import "./modules/bootstrap-5.3.8/scss/utilities/api";
-
 // 我的 Custom Utilities
 @import "./scss/utilities/custom_utilities";
 
-// 我的 Components
+// 我的 components
 @import "./scss/components/components";
 
 // 我的 pages
@@ -59,6 +47,8 @@
 @import "./scss/pages/about";
 @import "./scss/pages/contact";
 @import "./scss/pages/login";
+
+@import "./modules/bootstrap-5.3.8/scss/bootstrap";
 
 // 我的 type
 @import "./scss/components/typography";
