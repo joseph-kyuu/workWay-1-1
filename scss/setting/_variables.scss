@@ -207,6 +207,8 @@ $h-160: $general-size-base * 10;
 */
 /* 20 */
 $w-20: $general-size-base * 1.25;
+/* 1% */
+$w-p1: 1%;
 
 /* 
   ======================
@@ -243,6 +245,14 @@ $min-w-320: $general-size-base * 20;
 $min-w-416: $general-size-base * 26;
 $min-w-120: $general-size-base * 7.5;
 $min-w-300: $general-size-base * 18.75;
+
+/* 
+  ======================
+  !!!!! table-striped !!!!!
+  ======================
+*/
+
+$table-striped-bg: $neutral-90;
 
 /* 
   =================
