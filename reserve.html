@@ -68,7 +68,7 @@
     <main class="py-12 bg-neutral-95">
       <!-- 按鈕 -->
       <section
-        class="container mb-6 d-flex justify-content-center gap-sm-6 gap-4"
+        class="container mb-sm-6 mb-4 d-flex justify-content-center gap-sm-6 gap-4"
       >
         <!-- 個人資料 -->
         <a
@@ -137,22 +137,22 @@
       <!-- 表單 -->
       <section class="container">
         <div
-          class="d-flex flex-column gap-9 p-md-9 p-6 bg-brand-white radius-4 shadow"
+          class="d-flex flex-column gap-sm-9 gap-6 p-sm-9 p-6 bg-brand-white radius-4 shadow"
         >
           <!-- 預約紀錄 -->
-          <div class="d-flex flex-column gap-6">
+          <div class="d-flex flex-column gap-sm-6 gap-4">
             <!-- 標題 -->
-            <h2>預約紀錄</h2>
+            <h2 class="fs-sm-4 fs-5 fw-medium lh-1p2">預約紀錄</h2>
             <!-- 紀錄清單 -->
             <ul class="list-unstyled d-flex gap-6">
               <li
-                class="py-6 radius-4 bg-brand-white border border-neutral-85 text-center flex-grow-1"
+                class="py-6 radius-4 bg-brand-white border border-neutral-85 text-center flex-grow-1 d-md-block d-none"
               >
                 <h3 class="fs-2 text-brand-primary fw-bold lh-1p2">3</h3>
                 <p class="fs-6 text-neutral-50 fw-normal">已完成諮詢</p>
               </li>
               <li
-                class="py-6 radius-4 bg-brand-white border border-neutral-85 text-center flex-grow-1"
+                class="py-sm-6 py-4 radius-4 bg-brand-white border border-neutral-85 text-center flex-grow-1"
               >
                 <h3 class="fs-2 text-brand-primary fw-bold lh-1p2">
                   2025/10/10
@@ -160,7 +160,7 @@
                 <p class="fs-6 text-neutral-50 fw-normal">即將到來</p>
               </li>
               <li
-                class="py-6 radius-4 bg-brand-white border border-neutral-85 text-center flex-grow-1"
+                class="py-6 radius-4 bg-brand-white border border-neutral-85 text-center flex-grow-1 d-md-block d-none"
               >
                 <h3 class="fs-2 text-brand-primary fw-bold lh-1p2">3/6</h3>
                 <p class="fs-6 text-neutral-50 fw-normal">使用方案進度</p>
@@ -168,41 +168,41 @@
             </ul>
           </div>
           <!-- 預約表格 -->
-          <div class="d-flex flex-column gap-6">
+          <div class="d-flex flex-column gap-sm-6 gap-4">
             <!-- 按鈕 -->
             <ul class="list-unstyled d-flex justify-content-between">
               <li class="d-flex gap-2">
                 <!-- 全部預約 -->
                 <a
-                  class="btn btn-normal btn-white3-filled d-flex justify-content-center align-items-center"
+                  class="btn btn-normal btn-white3-filled d-flex justify-content-center align-items-center px-sm-5 px-3"
                   href="#"
                 >
                   <span class="fw-normal">全部預約</span>
                 </a>
                 <!-- 已完成 -->
                 <a
-                  class="btn btn-normal btn-white3-filled d-flex justify-content-center align-items-center"
+                  class="btn btn-normal btn-white3-filled d-flex justify-content-center align-items-center px-sm-5 px-3"
                   href="#"
                 >
                   <span class="fw-normal">已完成</span>
                 </a>
                 <!-- 已取消 -->
                 <a
-                  class="btn btn-normal btn-white3-filled d-flex justify-content-center align-items-center"
+                  class="btn btn-normal btn-white3-filled d-flex justify-content-center align-items-center px-sm-5 px-3"
                   href="#"
                 >
                   <span class="fw-normal">已取消</span>
                 </a>
               </li>
-              <li>
-                <!-- 個人資料 -->
+              <li class="d-flex align-items-center">
+                <!-- 排序 -->
                 <a
-                  class="btn btn-normal btn-white2-filled fs-sm-7 fs-8 px-sm-5 px-3 d-flex justify-content-center align-items-center gap-sm-1 gap-0"
+                  class="btn btn-normal btn-white-filled fs-sm-7 fs-8 px-sm-5 px-3 d-flex justify-content-center align-items-center gap-sm-1 gap-0 d-none d-sm-block"
                   href="#"
                 >
+                  <span class="fw-normal">排序</span>
                   <span>
                     <svg
-                      class="d-flex justify-content-center align-items-center"
                       xmlns="http://www.w3.org/2000/svg"
                       height="20px"
                       viewBox="0 -960 960 960"
@@ -210,16 +210,32 @@
                       fill="currentColor"
                     >
                       <path
-                        d="M324.5-404.5Q310-419 310-440t14.5-35.5Q339-490 360-490t35.5 14.5Q410-461 410-440t-14.5 35.5Q381-390 360-390t-35.5-14.5Zm240 0Q550-419 550-440t14.5-35.5Q579-490 600-490t35.5 14.5Q650-461 650-440t-14.5 35.5Q621-390 600-390t-35.5-14.5ZM480-160q134 0 227-93t93-227q0-24-3-46.5T786-570q-21 5-42 7.5t-44 2.5q-91 0-172-39T390-708q-32 78-91.5 135.5T160-486v6q0 134 93 227t227 93Zm0 80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-54-715q42 70 114 112.5T700-640q14 0 27-1.5t27-3.5q-42-70-114-112.5T480-800q-14 0-27 1.5t-27 3.5ZM177-581q51-29 89-75t57-103q-51 29-89 75t-57 103Zm249-214Zm-103 36Z"
+                        d="M400-240v-80h160v80H400ZM240-440v-80h480v80H240ZM120-640v-80h720v80H120Z"
                       />
                     </svg>
                   </span>
-                  <span class="fw-normal">個人資料</span>
+                </a>
+                <a class="d-sm-none" href="#">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24px"
+                      viewBox="0 -960 960 960"
+                      width="24px"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M400-240v-80h160v80H400ZM240-440v-80h480v80H240ZM120-640v-80h720v80H120Z"
+                      />
+                    </svg>
+                  </span>
                 </a>
               </li>
             </ul>
-            <!-- 表格 -->
-            <table class="table table-striped border-neutral-85">
+            <!-- 電腦版 表格 -->
+            <table
+              class="table table-striped border-neutral-85 d-none d-md-block"
+            >
               <thead>
                 <tr class="text-nowrap">
                   <th class="p-3" scope="col">諮詢方案</th>
@@ -316,6 +332,232 @@
                 </tr>
               </tbody>
             </table>
+            <!-- 手機版 卡片  -->
+            <div class="d-md-none">
+              <!-- 標題 -->
+              <div class="border-bottom border-neutral-85">
+                <p class="py-3 px-2 fs-8 fw-medium lh-1p2">預約紀錄一覽</p>
+              </div>
+              <!-- 卡片 -->
+              <ul class="list-unstyled reserve-list">
+                <li class="border-bottom border-neutral-85">
+                  <a href="#">
+                    <!-- 標題、視訊 -->
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="py-19 ps-2">
+                        <p>職涯定位-職涯探索包 | 6/6堂</p>
+                      </div>
+
+                      <div class="py-19 px-2">
+                        <span
+                          class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                          >視訊</span
+                        >
+                      </div>
+                    </div>
+                    <!-- 時間、時長 -->
+                    <div class="d-flex align-items-center">
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時間：2025/11/11
+                        </p>
+                      </div>
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時長：60分鐘
+                        </p>
+                      </div>
+                    </div>
+                    <!-- 狀態 -->
+                    <div class="py-19 px-2">
+                      <p class="fs-8 text-neutral-50 fw-normal">等待上課</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="border-bottom border-neutral-85">
+                  <a href="#">
+                    <!-- 標題、視訊 -->
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="py-19 ps-2">
+                        <p>職涯定位-職涯探索包 | 6/6堂</p>
+                      </div>
+
+                      <div class="py-19 px-2">
+                        <span
+                          class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                          >視訊</span
+                        >
+                      </div>
+                    </div>
+                    <!-- 時間、時長 -->
+                    <div class="d-flex align-items-center">
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時間：2025/11/11
+                        </p>
+                      </div>
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時長：60分鐘
+                        </p>
+                      </div>
+                    </div>
+                    <!-- 狀態 -->
+                    <div class="py-19 px-2">
+                      <p class="fs-8 text-neutral-50 fw-normal">等待上課</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="border-bottom border-neutral-85">
+                  <a href="#">
+                    <!-- 標題、視訊 -->
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="py-19 ps-2">
+                        <p>職涯定位-職涯探索包 | 6/6堂</p>
+                      </div>
+
+                      <div class="py-19 px-2">
+                        <span
+                          class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                          >視訊</span
+                        >
+                      </div>
+                    </div>
+                    <!-- 時間、時長 -->
+                    <div class="d-flex align-items-center">
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時間：2025/11/11
+                        </p>
+                      </div>
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時長：60分鐘
+                        </p>
+                      </div>
+                    </div>
+                    <!-- 狀態 -->
+                    <div class="py-19 px-2">
+                      <p class="fs-8 text-neutral-50 fw-normal">等待上課</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="border-bottom border-neutral-85">
+                  <a href="#">
+                    <!-- 標題、視訊 -->
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="py-19 ps-2">
+                        <p>職涯定位-職涯探索包 | 6/6堂</p>
+                      </div>
+
+                      <div class="py-19 px-2">
+                        <span
+                          class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                          >視訊</span
+                        >
+                      </div>
+                    </div>
+                    <!-- 時間、時長 -->
+                    <div class="d-flex align-items-center">
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時間：2025/11/11
+                        </p>
+                      </div>
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時長：60分鐘
+                        </p>
+                      </div>
+                    </div>
+                    <!-- 狀態 -->
+                    <div class="py-19 px-2">
+                      <p class="fs-8 text-neutral-50 fw-normal">等待上課</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="border-bottom border-neutral-85">
+                  <a href="#">
+                    <!-- 標題、視訊 -->
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="py-19 ps-2">
+                        <p>職涯定位-職涯探索包 | 6/6堂</p>
+                      </div>
+
+                      <div class="py-19 px-2">
+                        <span
+                          class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                          >視訊</span
+                        >
+                      </div>
+                    </div>
+                    <!-- 時間、時長 -->
+                    <div class="d-flex align-items-center">
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時間：2025/11/11
+                        </p>
+                      </div>
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時長：60分鐘
+                        </p>
+                      </div>
+                    </div>
+                    <!-- 狀態 -->
+                    <div class="py-19 px-2">
+                      <p class="fs-8 text-neutral-50 fw-normal">等待上課</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="border-bottom border-neutral-85">
+                  <a href="#">
+                    <!-- 標題、視訊 -->
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="py-19 ps-2">
+                        <p>職涯定位-職涯探索包 | 6/6堂</p>
+                      </div>
+
+                      <div class="py-19 px-2">
+                        <span
+                          class="fs-8 text-neutral-50 fw-medium py-1 px-2 bg-brand-white border border-neutral-85 rounded-pill"
+                          >視訊</span
+                        >
+                      </div>
+                    </div>
+                    <!-- 時間、時長 -->
+                    <div class="d-flex align-items-center">
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時間：2025/11/11
+                        </p>
+                      </div>
+                      <div class="py-19 px-2">
+                        <p class="fs-8 text-neutral-50 fw-normal">
+                          時長：60分鐘
+                        </p>
+                      </div>
+                    </div>
+                    <!-- 狀態 -->
+                    <div class="py-19 px-2">
+                      <p class="fs-8 text-neutral-50 fw-normal">等待上課</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
