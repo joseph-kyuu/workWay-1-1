@@ -13035,6 +13035,18 @@ textarea.form-control-lg {
   width: 1% !important;
 }
 
+.list-disc {
+  list-style-type: disc !important;
+}
+
+.list-circle {
+  list-style-type: circle !important;
+}
+
+.list-square {
+  list-style-type: square !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
