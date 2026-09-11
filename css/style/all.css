@@ -24183,6 +24183,10 @@ input::placeholder {
   background: #e0e5eb;
 }
 
+#file {
+  display: none;
+}
+
 .display-xs-1 {
   font-size: 5rem !important;
 }
