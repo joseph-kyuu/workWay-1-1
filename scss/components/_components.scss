@@ -52,6 +52,11 @@
   @include btn-size($spacing-12, $spacing-12, $spacing-12, $spacing-20);
 }
 
+.btn-normal {
+  /* 內間距 */
+  @include btn-size($spacing-12, $spacing-20, $spacing-12, $spacing-20);
+}
+
 .btn-small {
   /* 內間距 */
   @include btn-size($spacing-4, $spacing-4, $spacing-4, $spacing-8);
@@ -102,6 +107,22 @@
     $neutral-90,
     1px solid transparent,
     $neutral-50
+  );
+}
+
+// 白3
+.btn-white3-filled {
+  @include button-version(
+    $brand-color-white,
+    1px solid $neutral-85,
+    $radius-16,
+    $brand-color-black,
+    $brand-color-black,
+    1px solid $brand-color-black,
+    $brand-color-white,
+    $brand-color-black,
+    1px solid $brand-color-black,
+    $brand-color-white
   );
 }
 

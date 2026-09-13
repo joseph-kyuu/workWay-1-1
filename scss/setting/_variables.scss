@@ -167,6 +167,14 @@ $spacing-312: $general-size-base * 19.5;
 $spacing-100: $general-size-base * 6.25;
 /* 192 */
 $spacing-192: $general-size-base * 12;
+/* 140 */
+$spacing-140: $general-size-base * 8.75;
+/* 200 */
+$spacing-200: $general-size-base * 12.5;
+/* 142 */
+$spacing-142: $general-size-base * 8.875;
+/* 10 */
+$spacing-10: $general-size-base * 0.625;
 
 /* 
   =============
@@ -181,12 +189,28 @@ $radius-12: $general-size-base * 0.75;
 $radius-16: $general-size-base;
 /* 24px */
 $radius-24: $general-size-base * 1.5;
+/* 32px */
+$radius-32: $general-size-base * 2;
 
 /* 
   ======================
-  !!!!! max-height !!!!!
+  !!!!! height !!!!!
   ======================
 */
+/* 192 */
+$h-400: $general-size-base * 25;
+$h-20: $general-size-base * 1.25;
+$h-160: $general-size-base * 10;
+
+/* 
+  ======================
+  !!!!! width !!!!!
+  ======================
+*/
+/* 20 */
+$w-20: $general-size-base * 1.25;
+/* 1% */
+$w-p1: 1%;
 
 /* 
   ======================
@@ -197,6 +221,11 @@ $max-w-815: $general-size-base * 51;
 $max-w-416: $general-size-base * 26;
 $max-w-1168: $general-size-base * 73;
 $max-w-636: $general-size-base * 39.75;
+$max-w-800: $general-size-base * 50;
+$max-w-856: $general-size-base * 53.5;
+$max-w-120: $general-size-base * 7.5;
+$max-w-300: $general-size-base * 18.75;
+$max-w-700: $general-size-base * 43.75;
 // $max-w-40: $general-size-base * 2.5;
 // $max-w-746: $general-size-base * 46.625;
 // $max-w-64: $general-size-base * 4;
@@ -215,6 +244,23 @@ $max-w-636: $general-size-base * 39.75;
 */
 $min-w-400: $general-size-base * 25;
 $min-w-320: $general-size-base * 20;
+$min-w-416: $general-size-base * 26;
+$min-w-120: $general-size-base * 7.5;
+$min-w-300: $general-size-base * 18.75;
+
+/* 
+  ======================
+  !!!!! table-striped !!!!!
+  ======================
+*/
+
+$table-striped-bg: $neutral-90;
+
+/* 
+  =================
+  !!!!! bread !!!!!
+  =================
+*/
 
 /* 
   =================
