@@ -34,6 +34,10 @@ $neutral-colors: (
   10: $neutral-10,
 );
 
+$global-dnager-colors: (
+  45: $global-dnager-45,
+);
+
 $line-height: (
   1: $lh-1,
   1p5: $lh-1p5,
@@ -74,17 +78,10 @@ $spacers: (
   13: $spacing-312,
   14: $spacing-100,
   15: $spacing-192,
-);
-
-$font-sizes: (
-  1: $fs-1,
-  2: $fs-2,
-  3: $fs-3,
-  4: $fs-4,
-  5: $fs-5,
-  6: $fs-6,
-  7: $fs-7,
-  8: $fs-8,
+  16: $spacing-140,
+  17: $spacing-200,
+  18: $spacing-142,
+  19: $spacing-10,
 );
 
 $max-width-c: (
@@ -94,12 +91,18 @@ $max-width-c: (
   4: $max-w-636,
   5: $max-w-800,
   6: $max-w-856,
+  7: $max-w-120,
+  8: $max-w-300,
+  9: $max-w-700,
+  10: $max-w-306,
 );
 
 $min-width-c: (
   1: $min-w-400,
   2: $min-w-320,
   3: $min-w-416,
+  4: $min-w-120,
+  5: $min-w-300,
 );
 
 $radius: (
@@ -107,6 +110,18 @@ $radius: (
   2: $radius-12,
   3: $radius-16,
   4: $radius-24,
+  5: $radius-32,
+);
+
+$height: (
+  1: $h-400,
+  2: $h-20,
+  3: $h-160,
+);
+
+$width: (
+  1: $w-20,
+  2: $w-p1,
 );
 
 /*
