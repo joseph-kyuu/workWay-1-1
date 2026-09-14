@@ -99,17 +99,22 @@ $utilities: map-merge(
       class: gap-y,
       values: $spacers,
     ),
-    "height": (
+    "height-c": (
       responsive: true,
       property: height,
       class: height,
       values: $height,
     ),
-    "width": (
+    "width-c": (
       responsive: true,
       property: width,
       class: width,
       values: $width,
+    ),
+    "list-style": (
+      property: list-style-type,
+      class: list,
+      values: disc circle square,
     ),
     "margin": (
       responsive: true,
