@@ -81,17 +81,7 @@ $spacers: (
   16: $spacing-140,
   17: $spacing-200,
   18: $spacing-142,
-);
-
-$font-sizes: (
-  1: $fs-1,
-  2: $fs-2,
-  3: $fs-3,
-  4: $fs-4,
-  5: $fs-5,
-  6: $fs-6,
-  7: $fs-7,
-  8: $fs-8,
+  19: $spacing-10,
 );
 
 $max-width-c: (
@@ -104,6 +94,7 @@ $max-width-c: (
   7: $max-w-120,
   8: $max-w-300,
   9: $max-w-700,
+  10: $max-w-306,
 );
 
 $min-width-c: (
@@ -130,6 +121,7 @@ $height: (
 
 $width: (
   1: $w-20,
+  2: $w-p1,
 );
 
 /*
