@@ -12795,6 +12795,10 @@ textarea.form-control-lg {
   max-width: 43.75rem !important;
 }
 
+.max-width-10 {
+  max-width: 19.125rem !important;
+}
+
 .min-width-1 {
   min-width: 25rem !important;
 }
@@ -13033,6 +13037,18 @@ textarea.form-control-lg {
 
 .width-2 {
   width: 1% !important;
+}
+
+.list-disc {
+  list-style-type: disc !important;
+}
+
+.list-circle {
+  list-style-type: circle !important;
+}
+
+.list-square {
+  list-style-type: square !important;
 }
 
 @media (min-width: 576px) {
@@ -15004,6 +15020,9 @@ textarea.form-control-lg {
   }
   .max-width-sm-9 {
     max-width: 43.75rem !important;
+  }
+  .max-width-sm-10 {
+    max-width: 19.125rem !important;
   }
   .min-width-sm-1 {
     min-width: 25rem !important;
@@ -17166,6 +17185,9 @@ textarea.form-control-lg {
   .max-width-md-9 {
     max-width: 43.75rem !important;
   }
+  .max-width-md-10 {
+    max-width: 19.125rem !important;
+  }
   .min-width-md-1 {
     min-width: 25rem !important;
   }
@@ -19326,6 +19348,9 @@ textarea.form-control-lg {
   }
   .max-width-lg-9 {
     max-width: 43.75rem !important;
+  }
+  .max-width-lg-10 {
+    max-width: 19.125rem !important;
   }
   .min-width-lg-1 {
     min-width: 25rem !important;
@@ -21488,6 +21513,9 @@ textarea.form-control-lg {
   .max-width-xl-9 {
     max-width: 43.75rem !important;
   }
+  .max-width-xl-10 {
+    max-width: 19.125rem !important;
+  }
   .min-width-xl-1 {
     min-width: 25rem !important;
   }
@@ -23649,6 +23677,9 @@ textarea.form-control-lg {
   .max-width-xxl-9 {
     max-width: 43.75rem !important;
   }
+  .max-width-xxl-10 {
+    max-width: 19.125rem !important;
+  }
   .min-width-xxl-1 {
     min-width: 25rem !important;
   }
@@ -24181,6 +24212,10 @@ input::placeholder {
 
 .reserve-list li:nth-child(even) {
   background: #e0e5eb;
+}
+
+#file {
+  display: none;
 }
 
 .display-xs-1 {

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>關於</title>
+    <title>聯絡</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,7 +36,7 @@
                 <a class="py-2 px-6" href="./about.html">關於職旅</a>
               </li>
               <li>
-                <a class="py-2 px-6" href="＃">聯絡我們</a>
+                <a class="py-2 px-6" href="./contact.html">聯絡我們</a>
               </li>
             </ul>
           </nav>
@@ -45,7 +45,7 @@
         <li>
           <a
             class="btn btn-xl px-md-6 px-4 btn-white-filled me-3 me-md-0"
-            href="#"
+            href="./login.html"
             >登入/註冊</a
           >
 
@@ -83,7 +83,7 @@
           >
             <!-- 標題 -->
             <div
-              class="d-flex flex-md-column flex-row justify-content-md-start justify-content-between gap-3 flex-grow-1 max-width-md-8"
+              class="d-flex flex-md-column flex-row justify-content-md-start justify-content-between gap-3 flex-grow-1 max-width-md-8 min-width-5"
             >
               <h3 class="fs-4 fw-medium lh-1p2">基本資料</h3>
               <p
@@ -99,24 +99,26 @@
             <!-- 欄位 -->
             <div class="d-flex flex-column gap-md-6 gap-4 flex-grow-1">
               <!-- 姓名 -->
-              <div>
+              <div class="form-floating">
                 <input
                   type="text"
-                  id="name"
-                  class="form-control py-4 border-neutral-85"
-                  aria-describedby="nameBlock"
+                  class="form-control"
+                  id="nameInput"
                   placeholder="姓名"
                 />
+                <label for="floatingInput">姓名</label>
               </div>
               <!-- 信箱 -->
               <div>
-                <input
-                  type="email"
-                  id="email"
-                  class="form-control py-4 border-neutral-85"
-                  aria-describedby="emailBlock"
-                  placeholder="信箱"
-                />
+                <div class="form-floating">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="mailInput"
+                    placeholder="信箱"
+                  />
+                  <label for="floatingInput">信箱</label>
+                </div>
                 <div
                   id="passwordHelpBlock"
                   class="form-text text-neutral-50 fw-normal"
@@ -126,13 +128,15 @@
               </div>
               <!-- 聯絡電話 -->
               <div>
-                <input
-                  type="tel"
-                  id="tel"
-                  class="form-control py-4 border-neutral-85"
-                  aria-describedby="telBlock"
-                  placeholder="聯絡電話"
-                />
+                <div class="form-floating">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="nameInput"
+                    placeholder="聯絡電話"
+                  />
+                  <label for="floatingInput">聯絡電話</label>
+                </div>
                 <div
                   id="passwordHelpBlock"
                   class="form-text text-neutral-50 fw-normal"
@@ -184,11 +188,11 @@
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
                       value="職涯探索與方向"
-                      id="checkDefault"
+                      id="careerDefault"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="careerDefault"
                     >
                       職涯探索與方向
                     </label>
@@ -197,70 +201,70 @@
                     <input
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
-                      value="職涯探索與方向"
-                      id="checkDefault"
+                      value="接案與技能變現"
+                      id="freelanceDefault"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="freelanceDefault"
                     >
-                      職涯探索與方向
+                      接案與技能變現
                     </label>
                   </div>
                   <div class="form-check">
                     <input
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
-                      value="職涯探索與方向"
-                      id="checkDefault"
+                      value="品牌與內容經營"
+                      id="brandDefault"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="brandDefault"
                     >
-                      職涯探索與方向
+                      品牌與內容經營
                     </label>
                   </div>
                   <div class="form-check">
                     <input
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
-                      value="職涯探索與方向"
-                      id="checkDefault"
+                      value="遠端工作與數位游牧"
+                      id="remoteDefault"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="remoteDefault"
                     >
-                      職涯探索與方向
+                      遠端工作與數位游牧
                     </label>
                   </div>
                   <div class="form-check">
                     <input
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
-                      value="職涯探索與方向"
-                      id="checkDefault"
+                      value="收入與時間管理"
+                      id="timeDefault"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="timeDefault"
                     >
-                      職涯探索與方向
+                      收入與時間管理
                     </label>
                   </div>
                   <div class="form-check">
                     <input
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
-                      value="職涯探索與方向"
-                      id="checkDefault"
+                      value="其他（請填寫下題）"
+                      id="askOtherDefault"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="askOtherDefault"
                     >
-                      職涯探索與方向
+                      其他（請填寫下題）
                     </label>
                   </div>
                 </div>
@@ -312,7 +316,7 @@
               <p
                 class="d-flex justify-content-center align-items-center justify-content-md-start align-items-md-start gap-1"
               >
-                <span class="text-neutral-50 fw-normal">欄位皆為</span>
+                <span class="text-neutral-50 fw-normal">欄位皆為選填</span>
               </p>
             </div>
             <!-- 欄位 -->
@@ -322,7 +326,7 @@
                 <!-- 標題 -->
                 <h3 class="fs-7 fw-normal">偏好聯絡方式</h3>
                 <!-- 單選 -->
-                <div class="d-flex gap-6 flex-wrap px-2">
+                <div class="d-flex gap-sm-6 gap-4 flex-wrap px-2">
                   <div class="form-check">
                     <input
                       class="form-check-input border-neutral-85 height-2 width-1"
@@ -396,11 +400,11 @@
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
                       value="平日上午(9:00-12:00)"
-                      id="checkDefault"
+                      id="weekday9to12"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="weekday9to12"
                     >
                       平日上午(9:00-12:00)
                     </label>
@@ -410,11 +414,11 @@
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
                       value="平日下午(13:00-17:00)"
-                      id="checkDefault"
+                      id="weekday13to17"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="weekday13to17"
                     >
                       平日下午(13:00-17:00)
                     </label>
@@ -424,11 +428,11 @@
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
                       value="平日晚上(18:00-21:00)"
-                      id="checkDefault"
+                      id="weekday18to21"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="weekday18to21"
                     >
                       平日晚上(18:00-21:00)
                     </label>
@@ -438,11 +442,11 @@
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
                       value="週末上午(9:00-12:00)"
-                      id="checkDefault"
+                      id="weekend9to12"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="weekend9to12"
                     >
                       週末上午(9:00-12:00)
                     </label>
@@ -452,11 +456,11 @@
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
                       value="週末下午(13:00-17:00)"
-                      id="checkDefault"
+                      id="weekend13to17"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="weekend13to17"
                     >
                       週末下午(13:00-17:00)
                     </label>
@@ -466,11 +470,11 @@
                       class="form-check-input border-neutral-85 height-2 width-1"
                       type="checkbox"
                       value="週末晚上(18:00-21:00)"
-                      id="checkDefault"
+                      id="weekend18to21"
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="weekend18to21"
                     >
                       週末晚上(18:00-21:00)
                     </label>
@@ -499,7 +503,7 @@
                 <!-- 標題 -->
                 <h3 class="fs-7 fw-normal">如何得知我們</h3>
                 <!-- 核取方塊 -->
-                <div class="d-flex gap-x-6 gap-y-2 flex-wrap px-2">
+                <div class="d-flex gap-sm-x-6 gap-4 gap-y-2 flex-wrap px-2">
                   <div class="form-check">
                     <input
                       class="form-check-input border-neutral-85 height-2 width-1"
@@ -555,7 +559,7 @@
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="threadsCheck"
                     >
                       Threads
                     </label>
@@ -585,7 +589,7 @@
                     />
                     <label
                       class="form-check-label fs-8 fw-normal"
-                      for="checkDefault"
+                      for="podcastCheck"
                     >
                       Podcast / 節目推薦
                     </label>
@@ -715,13 +719,15 @@
               <a class="py-2 px-6 fw-normal" href="./about.html">關於職旅</a>
             </li>
             <li class="flex-shrink-0">
-              <a class="py-2 px-6 fw-normal" href="#">聯絡我們</a>
+              <a class="py-2 px-6 fw-normal" href="./contact.html">聯絡我們</a>
             </li>
             <li class="flex-shrink-0">
-              <a class="py-2 px-6 fw-normal" href="#">隱私權政策</a>
+              <a class="py-2 px-6 fw-normal" href="./policy.html">隱私權政策</a>
             </li>
             <li class="flex-shrink-0">
-              <a class="py-2 px-6 fw-normal" href="#">用戶條款</a>
+              <a class="py-2 px-6 fw-normal" href="./agreement.html"
+                >用戶條款</a
+              >
             </li>
           </ul>
         </li>

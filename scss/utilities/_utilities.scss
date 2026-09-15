@@ -111,6 +111,11 @@ $utilities: map-merge(
       class: width,
       values: $width,
     ),
+    "list-style": (
+      property: list-style-type,
+      class: list,
+      values: disc circle square,
+    ),
     "margin": (
       responsive: true,
       property: margin,
